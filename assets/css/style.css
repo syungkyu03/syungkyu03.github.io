@@ -127,7 +127,9 @@
 
 a { text-decoration: none; }
 
-li { list-style: none; }
+li{
+  list-style: none;
+}
 
 img, ion-icon, a, button, time, span { display: block; }
 
@@ -492,7 +494,7 @@ main {
 
 
 /*-----------------------------------*\
-  #ABOUT
+  #about
 \*-----------------------------------*/
 
 .about .article-title { margin-bottom: 15px; }
@@ -761,7 +763,7 @@ main {
 
 
 /*-----------------------------------*\
-  #RESUME
+  #skills
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
@@ -1382,7 +1384,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #ABOUT
+   * #about
    */
 
   .about .article-title { margin-bottom: 20px; }
@@ -1485,7 +1487,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * #RESUME
+   * #skills
    */
 
   .timeline-list { margin-left: 65px; }
@@ -1581,7 +1583,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * ABOUT
+   * about
    */
 
   /* testimonials modal */
@@ -1720,7 +1722,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-   * ABOUT
+   * about
    */
 
   /* service */
@@ -1874,7 +1876,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
   /**
-	 * RESUME
+	 * skills
 	 */
 
   .timeline-text { max-width: 700px; }
