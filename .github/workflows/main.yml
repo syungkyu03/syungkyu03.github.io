@@ -1,7 +1,7 @@
 # 이 Github Action의 이름입니다. 중요한 파일들을 체크하고, Github Pages에 배포한다는 의미입니다.
 name: Check important files and deploy to pages
 
-# master 브랜치에 push 될 때 작동하게 할 것이라는 의미입니다.
+# master 브랜치에 push 되는 이벤트가 발생하면 작동합니다.
 on:
   push:
     branches: ["master"]
