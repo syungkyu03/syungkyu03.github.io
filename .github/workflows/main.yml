@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Check important files and deploy to pages
 
 on:
   push:
