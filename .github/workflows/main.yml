@@ -25,25 +25,25 @@ jobs:
         run: |
           if [[ ! -f "index.html" ]]; then
             echo "index.html does not exist."
-            exit
+            exit 1
           fi
       - name: Check script.js
         run: |
-          if [[ ! -f "./js/script.js" ]]; then
+          if [[ ! -f "/js/script.js" ]]; then
             echo "script.js does not exist."
-            exit
+            exit 1
           fi
       - name: Check style.css
         run: |
-          if [[ ! -f "./css/style.css" ]]; then
+          if [[ ! -f "/css/style.css" ]]; then
             echo "style.css does not exist."
-            exit
+            exit 1
           fi
       - name: Check profile.png
         run: |
-          if [[ ! -f "./images/profile.png" ]]; then
+          if [[ ! -f "/images/profile.png" ]]; then
             echo "profile.png does not exist."
-            exit
+            exit 1
           fi
       - name: Check complete
         run: |
