@@ -70,11 +70,15 @@ jobs:
     needs: check_files
     # 우분투 환경에서 실행됩니다.
     runs-on: ubuntu-latest
+    # 배포 환경을 설정하고, 배포 후 페이지의 URL을 설정합니다.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       # Github Pages를 위해 Pages를 활성화하고 Setup합니다.
       - name: Setup Pages
         uses: actions/configure-pages@v3
-      # Github Pages에 배포될 수 있는 Artifact들을 업로드합니다.
+      # Github Pages에 배포될 수 있는 Artifact들을 업로드합니다(이 Repository로 부터).
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
