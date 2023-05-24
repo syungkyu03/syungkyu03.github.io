@@ -75,6 +75,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      # Checkout을 합니다.(Repository로부터 코드, 파일들을 내려받습니다.)
+      - name: Checkout
+        uses: actions/checkout@v3
       # Github Pages를 위해 Pages를 활성화하고 Setup합니다.
       - name: Setup Pages
         uses: actions/configure-pages@v3
@@ -91,4 +94,3 @@ jobs:
       - name: Deploying Complete
         run: |
           echo "Deploying Complete! Now we can see seonggyu's homepage!"
-          
