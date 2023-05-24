@@ -1,65 +1,89 @@
+# 이 Github Action의 이름입니다. 중요한 파일들을 체크하고, Github Pages에 배포한다는 의미입니다.
 name: Check important files and deploy to pages
 
+# master 브랜치에 push 될 때 작동하게 할 것이라는 의미입니다.
 on:
   push:
     branches: ["master"]
 
-  workflow_dispatch:
-
+# Action을 위한 권한들을 설정합니다.
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# 동시성을 설정합니다. 앞서 실행되는 다른 Deploy action 때문에 꼬이는 경우가 있어 추가했습니다.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# 이 Action의 Job을 설정합니다.
 jobs:
-  check_files_and_deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # 먼저 File들을 체크하는 Job입니다.
+  check_files:
+    # 우분투 환경에서 실행됩니다.
     runs-on: ubuntu-latest
+    # 아래는 check_files의 각 Step들입니다.
     steps:
+      # Checkout을 합니다.(Repository로부터 코드, 파일들을 내려받습니다.)
       - name: Checkout
         uses: actions/checkout@v3
+      # 아래는 File들의 존재 유무를 체크하는 Step들입니다.
+      # 수업에서 배웠던 Bash를 활용해 존재 유무를 체크합니다.
+      # 존재하지 않는다면 메시지를 출력하고 Action을 종료합니다.
+
+      # index.html의 존재 유무를 체크합니다.
       - name: Check index.html
         run: |
           if [[ ! -f "index.html" ]]; then
             echo "index.html does not exist."
             exit 1
           fi
+      # script.js의 존재 유무를 체크합니다.
       - name: Check script.js
         run: |
           if [[ ! -f "./assets/js/script.js" ]]; then
             echo "script.js does not exist."
             exit 1
           fi
+      # style.css의 존재 유무를 체크합니다.
       - name: Check style.css
         run: |
           if [[ ! -f "./assets/css/style.css" ]]; then
             echo "style.css does not exist."
             exit 1
           fi
+      # profile.png의 존재 유무를 체크합니다.
       - name: Check profile.png
         run: |
           if [[ ! -f "./assets/images/profile.png" ]]; then
             echo "profile.png does not exist."
             exit 1
           fi
+      # 전부 체크 되었다면 체크 완료 메시지를 출력합니다.
       - name: Check complete
         run: |
           echo "Check complete! Important files exist!"
+  # 배포를 담당하는 Step입니다.
+  deploy:
+    # check_files가 성공적으로 완료되면 실행됩니다.
+    needs: check_files
+    # 우분투 환경에서 실행됩니다.
+    runs-on: ubuntu-latest
+    steps:
+      # Github Pages를 위해 Pages를 활성화하고 Setup합니다.
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      # Github Pages에 배포될 수 있는 Artifact들을 업로드합니다.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: '.'
+      # Homepage를 Github Pages로 배포합니다.
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      # 배포가 완료되었다면 배포 완료 메시지를 출력합니다.
       - name: Deploying Complete
         run: |
           echo "Deploying Complete! Now we can see seonggyu's homepage!"
