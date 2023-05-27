@@ -21,7 +21,7 @@ concurrency:
 jobs:
   # 먼저 File들을 체크하는 Job입니다.
   check_files:
-    # 우분투 환경에서 실행됩니다.
+    # Runner의 환경을 ubuntu-latest로 설정합니다.
     runs-on: ubuntu-latest
     # 아래는 check_files의 각 Step들입니다.
     steps:
@@ -68,7 +68,7 @@ jobs:
   deploy:
     # check_files가 성공적으로 완료되면 실행됩니다.
     needs: check_files
-    # 우분투 환경에서 실행됩니다.
+    # Runner의 환경을 ubuntu-latest로 설정합니다.
     runs-on: ubuntu-latest
     # 배포 환경을 설정하고, 배포 후 페이지의 URL을 설정합니다.
     environment:
