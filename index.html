@@ -9,38 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f0f4f8; overflow-x: hidden; }
-        
-        /* 카드 스타일 수정: 위치 고정 */
         .card-container { perspective: 1000px; }
         .card { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.6s; }
         .card.flipped { transform: rotateY(180deg); }
-        
-        /* .card-face에 top:0, left:0을 주어 뒤집어도 위치가 튀지 않게 함 */
-        .card-face { 
-            position: absolute; 
-            top: 0; 
-            left: 0; 
-            width: 100%; 
-            height: 100%; 
-            backface-visibility: hidden; 
-            -webkit-backface-visibility: hidden; 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center; 
-            text-align: center; 
-            padding: 1.5rem; 
-            border-radius: 1.5rem; 
-        }
+        .card-face { position: absolute; top: 0; left: 0; width: 100%; height: 100%; backface-visibility: hidden; -webkit-backface-visibility: hidden; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 1.5rem; border-radius: 1.5rem; }
         .card-front { background-color: #ffffff; color: #1e293b; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 2; }
         .card-back { background-color: #4f46e5; color: white; transform: rotateY(180deg); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 1; }
-        
-        /* 사이드바 스타일 */
         #sidebar { transition: transform 0.3s ease-in-out; }
         #sidebar.open { transform: translateX(0); }
         #sidebar.closed { transform: translateX(-100%); }
-        
-        /* 스크롤바 커스텀 */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: #c7c7c7; border-radius: 4px; }
@@ -52,14 +29,13 @@
     <div id="login-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
         <div class="bg-white p-6 rounded-lg shadow-xl w-80">
             <h2 class="text-xl font-bold mb-4">동기화 ID 입력</h2>
-            <p class="text-gray-600 text-sm mb-4">PC와 폰에서 같은 ID를 입력하면 학습 기록이 동기화됩니다.</p>
+            <p class="text-gray-600 text-sm mb-4">PC와 모바일에서 동일한 ID를 사용하세요.</p>
             <input type="text" id="sync-id-input" placeholder="예: my-voca-01" class="w-full border p-2 rounded mb-4">
             <button onclick="saveSyncId()" class="w-full bg-indigo-600 text-white p-2 rounded hover:bg-indigo-700">시작하기</button>
         </div>
     </div>
 
     <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden" onclick="toggleSidebar()"></div>
-    
     <div id="sidebar" class="fixed top-0 left-0 h-full w-80 bg-white shadow-2xl z-40 closed overflow-y-auto p-4">
         <div class="flex justify-between items-center mb-6">
             <h2 class="text-xl font-bold text-gray-800">단어 목록</h2>
@@ -84,16 +60,20 @@
                 <button onclick="setFilter('ambiguous')" id="btn-filter-ambiguous" class="px-3 py-1 text-sm rounded-full bg-gray-200 text-gray-700 transition">🟡 애매함</button>
                 <button onclick="setFilter('memorized')" id="btn-filter-memorized" class="px-3 py-1 text-sm rounded-full bg-gray-200 text-gray-700 transition">🟢 외움</button>
             </div>
-            
-            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-gray-700 bg-gray-50 p-2 rounded-lg">
-                <label class="flex items-center cursor-pointer select-none">
-                    <input type="checkbox" id="reverse-mode-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleViewOptions()">
-                    <span>🇰🇷 뜻 먼저 보기</span>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-gray-700 bg-gray-50 p-2 rounded-lg select-none">
+                <label class="flex items-center cursor-pointer hover:text-indigo-600 transition">
+                    <input type="checkbox" id="shuffle-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleShuffle()">
+                    <span>🔀 순서 섞기</span>
                 </label>
                 <div class="hidden sm:block w-px h-4 bg-gray-300"></div>
-                <label class="flex items-center cursor-pointer select-none">
+                <label class="flex items-center cursor-pointer hover:text-indigo-600 transition">
+                    <input type="checkbox" id="reverse-mode-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleViewOptions()">
+                    <span>🇰🇷 뜻 먼저</span>
+                </label>
+                <div class="hidden sm:block w-px h-4 bg-gray-300"></div>
+                <label class="flex items-center cursor-pointer hover:text-indigo-600 transition">
                     <input type="checkbox" id="english-def-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleViewOptions()">
-                    <span>🇺🇸 뜻을 영어로 보기</span>
+                    <span>🇺🇸 영어 뜻</span>
                 </label>
             </div>
         </div>
@@ -101,13 +81,13 @@
         <div class="card-container h-80 w-full mb-4 cursor-pointer relative" onclick="flipCard()">
             <div id="card" class="card w-full h-full">
                 <div class="card-face card-front relative">
-                    <span id="card-difficulty" class="absolute top-4 right-4 text-xs font-bold px-2 py-1 rounded bg-gray-100 text-gray-500">Medium</span>
-                    <span id="card-part" class="absolute top-4 left-4 text-xs italic text-gray-400">verb</span>
-                    <h2 id="card-front-text" class="text-4xl font-bold break-keep px-2">Promote</h2>
+                    <span id="card-difficulty" class="absolute top-4 right-4 text-xs font-bold px-2 py-1 rounded bg-gray-100 text-gray-500">...</span>
+                    <span id="card-part" class="absolute top-4 left-4 text-xs italic text-gray-400">...</span>
+                    <h2 id="card-front-text" class="text-4xl font-bold break-keep px-2">Loading...</h2>
                 </div>
                 <div class="card-face card-back">
-                    <h2 id="card-back-main" class="text-3xl font-bold mb-4 break-keep px-2">홍보하다</h2>
-                    <p id="card-back-sub" class="text-base font-medium opacity-90 break-keep px-4">to encourage</p>
+                    <h2 id="card-back-main" class="text-3xl font-bold mb-4 break-keep px-2">로딩 중</h2>
+                    <p id="card-back-sub" class="text-base font-medium opacity-90 break-keep px-4">잠시만 기다려주세요.</p>
                 </div>
             </div>
         </div>
@@ -120,20 +100,20 @@
         </button>
 
         <div class="grid grid-cols-3 gap-3 w-full mb-8">
-            <button onclick="updateStatus('unknown')" id="btn-status-unknown" class="p-3 rounded-lg border-2 border-red-100 hover:bg-red-50 text-red-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+            <button onclick="updateStatus('unknown')" id="btn-status-unknown" class="p-3 rounded-lg border-2 border-red-100 text-red-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-red-50">
                 <span>🔴</span><span>몰라요</span>
             </button>
-            <button onclick="updateStatus('ambiguous')" id="btn-status-ambiguous" class="p-3 rounded-lg border-2 border-yellow-100 hover:bg-yellow-50 text-yellow-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+            <button onclick="updateStatus('ambiguous')" id="btn-status-ambiguous" class="p-3 rounded-lg border-2 border-yellow-100 text-yellow-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-yellow-50">
                 <span>🟡</span><span>애매해요</span>
             </button>
-            <button onclick="updateStatus('memorized')" id="btn-status-memorized" class="p-3 rounded-lg border-2 border-green-100 hover:bg-green-50 text-green-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+            <button onclick="updateStatus('memorized')" id="btn-status-memorized" class="p-3 rounded-lg border-2 border-green-100 text-green-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-green-50">
                 <span>🟢</span><span>외웠어요</span>
             </button>
         </div>
 
         <div class="flex items-center justify-center space-x-6 mb-8">
             <button onclick="prevCard()" class="w-12 h-12 rounded-full bg-white shadow text-gray-600 hover:bg-gray-50 active:scale-95 transition"><i class="fas fa-chevron-left"></i></button>
-            <span id="card-counter" class="text-gray-500 font-mono">1 / 10</span>
+            <span id="card-counter" class="text-gray-500 font-mono">0 / 0</span>
             <button onclick="nextCard()" class="w-12 h-12 rounded-full bg-indigo-600 shadow text-white hover:bg-indigo-700 active:scale-95 transition"><i class="fas fa-chevron-right"></i></button>
         </div>
 
@@ -144,7 +124,7 @@
         import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
         // ==========================================
-        // [필수] 여기에 본인의 Firebase 설정을 붙여넣으세요!
+        // [필수] Firebase 설정값을 여기에 붙여넣으세요!
         // ==========================================
         const firebaseConfig = {
             apiKey: "AIzaSyAoLwWDvszFSxKxrrRgts2sxhKtmalAm94",
@@ -153,10 +133,10 @@
             storageBucket: "my-toefl-voca.firebasestorage.app",
             messagingSenderId: "929048950334",
             appId: "1:929048950334:web:d33177785663a9dd22c36f",
+            databaseURL: "https://my-toefl-voca-default-rtdb.asia-southeast1.firebasedatabase.app",
             measurementId: "G-TVDZVQJECG"
         };
 
-        // Firebase 초기화
         const app = initializeApp(firebaseConfig);
         const db = getDatabase(app);
 
@@ -165,31 +145,39 @@
         window.set = set;
         window.onValue = onValue;
         
-        initApp();
+        loadVocabulary();
     </script>
 
     <script>
-        // --- 데이터 (샘플) ---
-        const rawVocabulary = [
-            { "Word": "promote", "Part of Speech": "verb", "Difficulty": "medium", "Korean Definition": "홍보하다, 촉진하다", "English Definition": "to further the progress of something", "Example Sentence": "The organization works to promote healthy eating habits." },
-            { "Word": "proportion", "Part of Speech": "noun", "Difficulty": "hard", "Korean Definition": "비율, 부분, 균형", "English Definition": "the size or amount of something compared to the whole", "Example Sentence": "Cartoons often have exaggerated proportions." },
-            { "Word": "pursue", "Part of Speech": "verb", "Difficulty": "hard", "Korean Definition": "추구하다, 뒤쫓다", "English Definition": "to try to achieve; to follow", "Example Sentence": "Man pursued the dream of flight for hundreds of years." },
-            { "Word": "capacity", "Part of Speech": "noun", "Difficulty": "medium", "Korean Definition": "수용 능력, 용량", "English Definition": "the maximum amount that something can contain.", "Example Sentence": "The stadium has a seating capacity of 50,000." },
-            { "Word": "efficient", "Part of Speech": "adj", "Difficulty": "easy", "Korean Definition": "효율적인", "English Definition": "achieving maximum productivity with minimum wasted effort", "Example Sentence": "Fluorescent lamps are efficient at converting electricity into light." }
-        ];
-
-        // --- 상태 변수 ---
+        let rawVocabulary = []; 
         let userSyncId = localStorage.getItem('voca_sync_id');
         let statusData = {}; 
         let currentList = []; 
         let currentIndex = 0;
-        let currentFilter = 'all';
-        
-        // 보기 옵션
-        let isReverseMode = false; // 한글 먼저 보기
-        let isEnglishDefMode = false; // 뜻을 영어로 보기
+        let currentFilter = 'all'; 
+        let isReverseMode = false;
+        let isEnglishDefMode = false;
+        let isShuffleMode = false; // 셔플 모드 상태
 
-        // --- 초기화 ---
+        // --- 1. 데이터 로드 ---
+        async function loadVocabulary() {
+            try {
+                const response = await fetch('words.json');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                rawVocabulary = await response.json();
+                console.log("단어 데이터 로드 완료:", rawVocabulary.length + "개");
+                initApp();
+            } catch (error) {
+                console.error("데이터 로드 실패:", error);
+                document.getElementById('card-front-text').innerText = "데이터 오류";
+                document.getElementById('card-back-main').innerText = "words.json 파일을 찾을 수 없습니다.";
+                if(window.location.protocol === 'file:') {
+                    alert("로컬에서 실행 시 Live Server를 사용해주세요.");
+                }
+            }
+        }
+
+        // --- 2. 초기화 ---
         function initApp() {
             if (!userSyncId) {
                 document.getElementById('login-modal').classList.remove('hidden');
@@ -211,17 +199,33 @@
         }
 
         function startSync() {
-            // Firebase 실시간 리스너
             const starCountRef = window.ref(window.db, 'users/' + userSyncId);
             window.onValue(starCountRef, (snapshot) => {
                 const data = snapshot.val();
                 statusData = data || {}; 
-                applyFilter(); // 리스트 갱신
-                renderSidebar(); // 사이드바 갱신 (데이터 오면 즉시)
+                // 데이터가 처음 로드될 때는 필터를 적용하지만,
+                // 이미 보고 있는 상태(currentIndex > 0)라면 방해하지 않도록 조건부 처리 가능.
+                // 하지만 단순함을 위해 여기선 데이터 동기화 시 리스트 갱신 (단, 필터와 셔플 유지)
+                
+                // 만약 사용자가 학습 중이라면 리스트 전체 리셋은 UX에 좋지 않음.
+                // 여기서는 사이드바만 갱신하고, 메인 리스트는 사용자가 직접 조작할 때(필터 변경 등)만 갱신하는 것이 나을 수도 있으나,
+                // 동기화를 위해 최초 1회는 무조건 실행.
+                if(currentList.length === 0) {
+                    applyFilter();
+                } else {
+                    renderSidebar();
+                    // 현재 보고 있는 카드의 상태 버튼만 업데이트
+                    if(currentList[currentIndex]) {
+                        const word = currentList[currentIndex].Word;
+                        const newStatus = statusData[word] || 'unknown';
+                        currentList[currentIndex].status = newStatus; // 메모리 상 상태 업데이트
+                        updateStatusButtons(newStatus);
+                    }
+                }
             });
         }
 
-        // --- 필터 로직 ---
+        // --- 필터 및 셔플 로직 ---
         window.setFilter = function(filterType) {
             currentFilter = filterType;
             ['all', 'unknown', 'ambiguous', 'memorized'].forEach(t => {
@@ -234,141 +238,200 @@
                     btn.classList.remove('bg-indigo-600', 'text-white');
                 }
             });
-            applyFilter();
+            applyFilter(); // 필터 바꿀 땐 리스트 리셋 (인덱스 0으로)
+        }
+
+        window.toggleShuffle = function() {
+            isShuffleMode = document.getElementById('shuffle-toggle').checked;
+            applyFilter(); // 셔플 모드 바뀌면 리스트 리셋 및 섞기
+        }
+
+        // Fisher-Yates Shuffle
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
         }
 
         function applyFilter() {
-            const combinedData = rawVocabulary.map(item => {
+            if(rawVocabulary.length === 0) return;
+
+            // 1. 상태 병합
+            let combinedData = rawVocabulary.map(item => {
                 const status = statusData[item.Word] || 'unknown';
                 return { ...item, status: status };
             });
 
-            if (currentFilter === 'all') {
-                currentList = combinedData;
-            } else {
-                currentList = combinedData.filter(item => item.status === currentFilter);
+            // 2. 필터링
+            if (currentFilter !== 'all') {
+                combinedData = combinedData.filter(item => item.status === currentFilter);
             }
 
+            // 3. 정렬 혹은 셔플
+            if (isShuffleMode) {
+                // 셔플 모드면 섞기
+                currentList = shuffleArray([...combinedData]);
+            } else {
+                // 아니면 원래 순서(JSON 순서)대로
+                // combinedData는 이미 rawVocabulary 순서를 따르므로 그대로 둠
+                currentList = combinedData;
+            }
+
+            // 4. 인덱스 초기화 및 렌더링
             currentIndex = 0;
             if (currentList.length === 0) renderEmpty();
             else renderCard();
         }
 
-        // --- 렌더링 (핵심 수정 부분) ---
-        function renderCard() {
-            if(currentList.length === 0) return;
-            const item = currentList[currentIndex];
-            const card = document.getElementById('card');
-            
-            // 카드 뒤집기 초기화
-            card.classList.remove('flipped');
-            document.getElementById('example-area').classList.add('hidden');
-
-            setTimeout(() => {
-                // 상단 정보
-                document.getElementById('card-difficulty').innerText = item.Difficulty.toUpperCase();
-                document.getElementById('card-part').innerText = item['Part of Speech'];
-                document.getElementById('example-text').innerText = item['Example Sentence'];
-
-                // 텍스트 변수 준비
-                const word = item.Word;
-                const korDef = item['Korean Definition'];
-                const engDef = item['English Definition'];
-                
-                // 표시 로직 (4가지 경우의 수)
-                let frontText, backMain, backSub;
-
-                // 1. 뜻: 한글 / 모드: 기본 (영어 단어 -> 한글 뜻)
-                if (!isReverseMode && !isEnglishDefMode) {
-                    frontText = word;
-                    backMain = korDef;
-                    backSub = engDef;
-                }
-                // 2. 뜻: 영어 / 모드: 기본 (영어 단어 -> 영어 뜻)
-                else if (!isReverseMode && isEnglishDefMode) {
-                    frontText = word;
-                    backMain = engDef;
-                    backSub = korDef; // 보조로 한글 표시
-                }
-                // 3. 뜻: 한글 / 모드: 리버스 (한글 뜻 -> 영어 단어)
-                else if (isReverseMode && !isEnglishDefMode) {
-                    frontText = korDef; // 여러 개면 다 보여줌
-                    backMain = word;
-                    backSub = engDef;
-                }
-                // 4. 뜻: 영어 / 모드: 리버스 (영어 뜻 -> 영어 단어)
-                else if (isReverseMode && isEnglishDefMode) {
-                    frontText = engDef;
-                    backMain = word;
-                    backSub = korDef;
-                }
-
-                document.getElementById('card-front-text').innerText = frontText;
-                document.getElementById('card-back-main').innerText = backMain;
-                document.getElementById('card-back-sub').innerText = backSub;
-
-                document.getElementById('card-counter').innerText = `${currentIndex + 1} / ${currentList.length}`;
-                updateStatusButtons(item.status);
-
-            }, 200);
-        }
-
-        function renderEmpty() {
-            document.getElementById('card-front-text').innerText = "완료!";
-            document.getElementById('card-back-main').innerText = "해당하는 단어가 없습니다.";
-            document.getElementById('card-back-sub').innerText = "필터를 변경해보세요.";
-            document.getElementById('card-counter').innerText = "0 / 0";
-        }
-
         window.toggleViewOptions = function() {
             isReverseMode = document.getElementById('reverse-mode-toggle').checked;
             isEnglishDefMode = document.getElementById('english-def-toggle').checked;
-            renderCard(); // 즉시 반영
+            renderCard();
         }
 
-        function updateStatusButtons(currentStatus) {
+        // --- 렌더링 ---
+        function renderCard() {
+            if(currentList.length === 0) return;
+            const item = currentList[currentIndex];
+            
+            const word = item.Word;
+            const korDef = item['Korean Definition'];
+            const engDef = item['English Definition'];
+            
+            let frontText, backMain, backSub;
+
+            if (!isReverseMode) {
+                frontText = word;
+                backMain = !isEnglishDefMode ? korDef : engDef;
+                backSub = !isEnglishDefMode ? engDef : korDef;
+            } else {
+                frontText = !isEnglishDefMode ? korDef.split(',')[0] : engDef;
+                backMain = word;
+                backSub = !isEnglishDefMode ? engDef : korDef;
+            }
+
+            document.getElementById('card-difficulty').innerText = item.Difficulty ? item.Difficulty.toUpperCase() : '';
+            document.getElementById('card-part').innerText = item['Part of Speech'] || '';
+            document.getElementById('example-text').innerText = item['Example Sentence'] || '';
+            document.getElementById('card-front-text').innerText = frontText;
+            document.getElementById('card-back-main').innerText = backMain;
+            document.getElementById('card-back-sub').innerText = backSub;
+
+            document.getElementById('card-counter').innerText = `${currentIndex + 1} / ${currentList.length}`;
+            updateStatusButtons(item.status);
+        }
+
+        function renderEmpty() {
+            document.getElementById('card-front-text').innerText = "완료/없음";
+            document.getElementById('card-back-main').innerText = "이 필터에는 단어가 없습니다.";
+            document.getElementById('card-back-sub').innerText = "다른 필터를 선택하세요.";
+            document.getElementById('card-counter').innerText = "0 / 0";
+            
             ['unknown', 'ambiguous', 'memorized'].forEach(status => {
                 const btn = document.getElementById(`btn-status-${status}`);
-                btn.classList.remove('ring-4', 'ring-indigo-300', 'bg-red-50', 'bg-yellow-50', 'bg-green-50');
-                if (status === currentStatus) {
-                    btn.classList.add('ring-4', 'ring-indigo-300');
-                    // 활성화된 배경색 추가
-                    if(status === 'unknown') btn.classList.add('bg-red-50');
-                    if(status === 'ambiguous') btn.classList.add('bg-yellow-50');
-                    if(status === 'memorized') btn.classList.add('bg-green-50');
-                }
+                btn.className = "p-3 rounded-lg border-2 border-gray-200 text-gray-300 font-bold flex flex-col items-center justify-center text-sm md:text-base cursor-not-allowed";
             });
         }
 
-        // --- 인터랙션 ---
+        function updateStatusButtons(currentStatus) {
+            const btns = {
+                unknown: document.getElementById('btn-status-unknown'),
+                ambiguous: document.getElementById('btn-status-ambiguous'),
+                memorized: document.getElementById('btn-status-memorized')
+            };
+
+            // Reset
+            btns.unknown.className = "p-3 rounded-lg border-2 border-red-100 text-red-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-red-50";
+            btns.ambiguous.className = "p-3 rounded-lg border-2 border-yellow-100 text-yellow-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-yellow-50";
+            btns.memorized.className = "p-3 rounded-lg border-2 border-green-100 text-green-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base hover:bg-green-50";
+
+            // Active
+            if(currentStatus === 'unknown') {
+                btns.unknown.className = "p-3 rounded-lg border-2 border-red-500 bg-red-500 text-white font-bold transition flex flex-col items-center justify-center text-sm md:text-base shadow-md transform scale-105";
+            } else if(currentStatus === 'ambiguous') {
+                btns.ambiguous.className = "p-3 rounded-lg border-2 border-yellow-400 bg-yellow-400 text-white font-bold transition flex flex-col items-center justify-center text-sm md:text-base shadow-md transform scale-105";
+            } else if(currentStatus === 'memorized') {
+                btns.memorized.className = "p-3 rounded-lg border-2 border-green-500 bg-green-500 text-white font-bold transition flex flex-col items-center justify-center text-sm md:text-base shadow-md transform scale-105";
+            }
+        }
+
+        // --- 인터랙션 및 상태 업데이트 (핵심 수정) ---
         window.flipCard = function() { document.getElementById('card').classList.toggle('flipped'); }
         window.toggleExample = function() { document.getElementById('example-area').classList.toggle('hidden'); }
-        window.nextCard = function() { if (currentList.length === 0) return; currentIndex = (currentIndex + 1) % currentList.length; renderCard(); }
-        window.prevCard = function() { if (currentList.length === 0) return; currentIndex = (currentIndex - 1 + currentList.length) % currentList.length; renderCard(); }
+        
+        window.nextCard = function() { 
+            if (currentList.length === 0) return; 
+            currentIndex = (currentIndex + 1) % currentList.length; 
+            resetCardState();
+            renderCard(); 
+        }
+        
+        window.prevCard = function() { 
+            if (currentList.length === 0) return; 
+            currentIndex = (currentIndex - 1 + currentList.length) % currentList.length; 
+            resetCardState();
+            renderCard(); 
+        }
 
-        // --- Firebase 업데이트 및 사이드바 ---
+        function resetCardState() {
+            document.getElementById('card').classList.remove('flipped'); 
+            document.getElementById('example-area').classList.add('hidden');
+        }
+
         window.updateStatus = function(newStatus) {
             if (currentList.length === 0) return;
             const currentItem = currentList[currentIndex];
             const word = currentItem.Word;
 
-            // 로컬 상태 즉시 반영 (UX 향상)
+            // 1. Firebase 저장
             statusData[word] = newStatus;
-            renderSidebar(); // 사이드바 즉시 갱신
-            updateStatusButtons(newStatus); // 버튼 즉시 갱신
-
-            // 서버 저장
             window.set(window.ref(window.db, 'users/' + userSyncId + '/' + word), newStatus)
-                .catch((error) => alert("동기화 실패: " + error.message));
+                .catch((error) => alert("오류: " + error.message));
+            
+            // 2. UI 즉시 업데이트 (버튼 색상 등)
+            updateStatusButtons(newStatus);
+            renderSidebar();
+
+            // 3. [중요] 네비게이션 로직 수정
+            // 리스트 전체를 갱신(applyFilter)하면 맨 처음으로 돌아가버림.
+            // 따라서 현재 리스트 메모리 상에서만 처리하고 다음 카드로 넘김.
+            
+            if (currentFilter === 'all' || currentFilter === newStatus) {
+                // A. 현재 필터에서도 여전히 보여야 하는 경우 (예: '전체' 보기 중이거나, 상태가 안 바뀜)
+                // 그냥 다음 카드로 넘어간다.
+                setTimeout(() => nextCard(), 200);
+            } else {
+                // B. 현재 필터에서 사라져야 하는 경우 (예: '못외움' 보기에서 '외움' 누름)
+                // 리스트에서 현재 항목을 제거하고, 인덱스는 유지(하면 뒤에 있던게 앞으로 옴)
+                currentList.splice(currentIndex, 1);
+                
+                // 인덱스 보정 (마지막 카드를 지웠을 경우)
+                if (currentIndex >= currentList.length) {
+                    currentIndex = Math.max(0, currentList.length - 1);
+                }
+
+                if (currentList.length === 0) {
+                    renderEmpty();
+                } else {
+                    // 카드가 사라지는 느낌을 위해 살짝 딜레이 후 렌더링
+                    setTimeout(() => {
+                        resetCardState();
+                        renderCard();
+                    }, 200);
+                }
+            }
         }
 
+        // --- 사이드바 ---
         window.toggleSidebar = function() {
             const sb = document.getElementById('sidebar');
             const ol = document.getElementById('sidebar-overlay');
             if (sb.classList.contains('closed')) {
                 sb.classList.remove('closed'); sb.classList.add('open');
                 ol.classList.remove('hidden');
-                renderSidebar(); // 열 때 확실히 렌더링
+                renderSidebar();
             } else {
                 sb.classList.remove('open'); sb.classList.add('closed');
                 ol.classList.add('hidden');
@@ -378,27 +441,24 @@
         window.renderSidebar = function() {
             const container = document.getElementById('sidebar-content');
             container.innerHTML = '';
-
             const groups = { unknown: [], ambiguous: [], memorized: [] };
+            
+            if(rawVocabulary.length === 0) return;
+
             rawVocabulary.forEach(item => {
                 const st = statusData[item.Word] || 'unknown';
                 if(groups[st]) groups[st].push(item);
             });
-
+            
             const labels = { unknown: '🔴 못외움', ambiguous: '🟡 애매함', memorized: '🟢 외움' };
-
             for (const [key, list] of Object.entries(groups)) {
-                // 리스트가 비어있어도 그룹 헤더는 보여주는게 좋을 수 있지만, 여기선 데이터 있는 것만 표시
                 const details = document.createElement('details');
                 details.open = true;
-                
                 const summary = document.createElement('summary');
                 summary.className = "cursor-pointer font-bold text-gray-700 py-2 select-none list-none flex items-center hover:bg-gray-50 rounded px-2";
                 summary.innerHTML = `<span class="mr-2 text-xs">▼</span> ${labels[key]} <span class="ml-auto text-xs bg-gray-200 px-2 py-0.5 rounded-full text-gray-600">${list.length}</span>`;
-                
                 const ul = document.createElement('ul');
                 ul.className = "pl-2 space-y-1 mt-1 mb-4";
-
                 if (list.length === 0) {
                     const emptyLi = document.createElement('li');
                     emptyLi.className = "text-xs text-gray-400 pl-4 py-1";
@@ -413,38 +473,42 @@
                         ul.appendChild(li);
                     });
                 }
-
-                details.appendChild(summary);
-                details.appendChild(ul);
-                container.appendChild(details);
+                details.appendChild(summary); details.appendChild(ul); container.appendChild(details);
             }
         }
 
         function jumpToWord(word) {
-            // 현재 필터와 상관없이 전체에서 찾아서 이동할지, 필터를 풀지 결정
-            // UX상 필터를 '전체'로 바꾸고 이동하는게 가장 확실함
             if (currentFilter !== 'all') {
-                document.getElementById('btn-filter-all').click(); // 전체 필터 클릭 트리거
+                // 다른 필터에 있는 단어로 점프하려면 전체 필터로 가야 함
+                // 필터를 바꾸면 리스트가 재생성되므로(applyFilter 호출), 여기서 인덱스를 찾아야 함
+                document.getElementById('btn-filter-all').click(); 
+                // setFilter -> applyFilter 실행 완료됨 (동기적)
             }
             
-            // setFilter가 비동기가 아니므로 바로 검색 가능
-            // 다만 setFilter 내부에서 renderCard를 하므로, 인덱스만 찾아서 다시 render
             const targetIndex = currentList.findIndex(item => item.Word === word);
             if (targetIndex !== -1) {
                 currentIndex = targetIndex;
+                resetCardState();
                 renderCard();
-                // 모바일에서는 사이드바 닫기
                 if(window.innerWidth < 768) toggleSidebar();
             }
         }
-
-        // 키보드 조작
+        
         document.addEventListener('keydown', (e) => {
             if(e.key === 'ArrowRight') nextCard();
             else if(e.key === 'ArrowLeft') prevCard();
             else if(e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
         });
 
+        window.resetAllToUnknown = function() {
+            if(!confirm("모든 학습 기록을 초기화하시겠습니까?")) return;
+            const updates = {};
+            rawVocabulary.forEach(item => {
+                updates[item.Word] = 'unknown';
+            });
+            window.set(window.ref(window.db, 'users/' + userSyncId), updates)
+                .then(() => alert("초기화 완료!"));
+        };
     </script>
 </body>
 </html>
