@@ -9,12 +9,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', 'Noto Sans KR', sans-serif; background-color: #f0f4f8; overflow-x: hidden; }
+        
+        /* 카드 스타일 수정: 위치 고정 */
         .card-container { perspective: 1000px; }
-        .card { position: relative; transform-style: preserve-3d; transition: transform 0.6s; }
+        .card { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform 0.6s; }
         .card.flipped { transform: rotateY(180deg); }
-        .card-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; -webkit-backface-visibility: hidden; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 1.5rem; border-radius: 1.5rem; }
-        .card-front { background-color: #ffffff; color: #1e293b; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
-        .card-back { background-color: #4f46e5; color: white; transform: rotateY(180deg); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
+        
+        /* .card-face에 top:0, left:0을 주어 뒤집어도 위치가 튀지 않게 함 */
+        .card-face { 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            backface-visibility: hidden; 
+            -webkit-backface-visibility: hidden; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            padding: 1.5rem; 
+            border-radius: 1.5rem; 
+        }
+        .card-front { background-color: #ffffff; color: #1e293b; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 2; }
+        .card-back { background-color: #4f46e5; color: white; transform: rotateY(180deg); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); z-index: 1; }
         
         /* 사이드바 스타일 */
         #sidebar { transition: transform 0.3s ease-in-out; }
@@ -52,22 +71,29 @@
     <header class="w-full bg-white shadow-sm p-4 flex items-center justify-between sticky top-0 z-20">
         <button onclick="toggleSidebar()" class="text-slate-600 text-xl p-2"><i class="fas fa-bars"></i></button>
         <h1 class="text-lg md:text-xl font-bold text-slate-800">VocaMaster</h1>
-        <div class="w-8"></div> </header>
+        <div class="w-8"></div>
+    </header>
 
     <main class="flex-grow flex flex-col items-center justify-start p-4 w-full max-w-2xl mx-auto mt-4">
         
         <div class="w-full bg-white rounded-xl p-4 shadow-sm mb-6">
-            <div class="flex flex-wrap gap-2 justify-center mb-3">
+            <div class="flex flex-wrap gap-2 justify-center mb-4">
                 <span class="text-xs font-bold text-gray-500 self-center mr-2">보기:</span>
                 <button onclick="setFilter('all')" id="btn-filter-all" class="px-3 py-1 text-sm rounded-full bg-indigo-600 text-white transition">전체</button>
                 <button onclick="setFilter('unknown')" id="btn-filter-unknown" class="px-3 py-1 text-sm rounded-full bg-gray-200 text-gray-700 transition">🔴 못외움</button>
                 <button onclick="setFilter('ambiguous')" id="btn-filter-ambiguous" class="px-3 py-1 text-sm rounded-full bg-gray-200 text-gray-700 transition">🟡 애매함</button>
                 <button onclick="setFilter('memorized')" id="btn-filter-memorized" class="px-3 py-1 text-sm rounded-full bg-gray-200 text-gray-700 transition">🟢 외움</button>
             </div>
-            <div class="flex items-center justify-center gap-4 text-sm text-gray-600">
-                <label class="flex items-center cursor-pointer">
-                    <input type="checkbox" id="mode-toggle" class="mr-2" onchange="toggleMode()">
-                    <span>한글 먼저 보기 (Reverse)</span>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-gray-700 bg-gray-50 p-2 rounded-lg">
+                <label class="flex items-center cursor-pointer select-none">
+                    <input type="checkbox" id="reverse-mode-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleViewOptions()">
+                    <span>🇰🇷 뜻 먼저 보기</span>
+                </label>
+                <div class="hidden sm:block w-px h-4 bg-gray-300"></div>
+                <label class="flex items-center cursor-pointer select-none">
+                    <input type="checkbox" id="english-def-toggle" class="mr-2 w-4 h-4 text-indigo-600" onchange="toggleViewOptions()">
+                    <span>🇺🇸 뜻을 영어로 보기</span>
                 </label>
             </div>
         </div>
@@ -77,11 +103,11 @@
                 <div class="card-face card-front relative">
                     <span id="card-difficulty" class="absolute top-4 right-4 text-xs font-bold px-2 py-1 rounded bg-gray-100 text-gray-500">Medium</span>
                     <span id="card-part" class="absolute top-4 left-4 text-xs italic text-gray-400">verb</span>
-                    <h2 id="card-main-text" class="text-4xl font-bold break-keep">Promote</h2>
+                    <h2 id="card-front-text" class="text-4xl font-bold break-keep px-2">Promote</h2>
                 </div>
                 <div class="card-face card-back">
-                    <h2 id="card-sub-text" class="text-3xl font-bold mb-4 break-keep">홍보하다</h2>
-                    <p id="card-desc-text" class="text-base font-medium opacity-90 break-keep">to encourage</p>
+                    <h2 id="card-back-main" class="text-3xl font-bold mb-4 break-keep px-2">홍보하다</h2>
+                    <p id="card-back-sub" class="text-base font-medium opacity-90 break-keep px-4">to encourage</p>
                 </div>
             </div>
         </div>
@@ -94,21 +120,21 @@
         </button>
 
         <div class="grid grid-cols-3 gap-3 w-full mb-8">
-            <button onclick="updateStatus('unknown')" id="btn-status-unknown" class="p-3 rounded-lg border-2 border-red-100 hover:bg-red-50 text-red-600 font-bold transition">
-                🔴 몰라요
+            <button onclick="updateStatus('unknown')" id="btn-status-unknown" class="p-3 rounded-lg border-2 border-red-100 hover:bg-red-50 text-red-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+                <span>🔴</span><span>몰라요</span>
             </button>
-            <button onclick="updateStatus('ambiguous')" id="btn-status-ambiguous" class="p-3 rounded-lg border-2 border-yellow-100 hover:bg-yellow-50 text-yellow-600 font-bold transition">
-                🟡 애매해요
+            <button onclick="updateStatus('ambiguous')" id="btn-status-ambiguous" class="p-3 rounded-lg border-2 border-yellow-100 hover:bg-yellow-50 text-yellow-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+                <span>🟡</span><span>애매해요</span>
             </button>
-            <button onclick="updateStatus('memorized')" id="btn-status-memorized" class="p-3 rounded-lg border-2 border-green-100 hover:bg-green-50 text-green-600 font-bold transition">
-                🟢 외웠어요
+            <button onclick="updateStatus('memorized')" id="btn-status-memorized" class="p-3 rounded-lg border-2 border-green-100 hover:bg-green-50 text-green-600 font-bold transition flex flex-col items-center justify-center text-sm md:text-base">
+                <span>🟢</span><span>외웠어요</span>
             </button>
         </div>
 
         <div class="flex items-center justify-center space-x-6 mb-8">
-            <button onclick="prevCard()" class="w-12 h-12 rounded-full bg-white shadow text-gray-600 hover:bg-gray-50"><i class="fas fa-chevron-left"></i></button>
+            <button onclick="prevCard()" class="w-12 h-12 rounded-full bg-white shadow text-gray-600 hover:bg-gray-50 active:scale-95 transition"><i class="fas fa-chevron-left"></i></button>
             <span id="card-counter" class="text-gray-500 font-mono">1 / 10</span>
-            <button onclick="nextCard()" class="w-12 h-12 rounded-full bg-indigo-600 shadow text-white hover:bg-indigo-700"><i class="fas fa-chevron-right"></i></button>
+            <button onclick="nextCard()" class="w-12 h-12 rounded-full bg-indigo-600 shadow text-white hover:bg-indigo-700 active:scale-95 transition"><i class="fas fa-chevron-right"></i></button>
         </div>
 
     </main>
@@ -118,7 +144,7 @@
         import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
         // ==========================================
-        // [필수] 아래 객체를 Firebase 콘솔 값으로 교체하세요!
+        // [필수] 여기에 본인의 Firebase 설정을 붙여넣으세요!
         // ==========================================
         const firebaseConfig = {
             apiKey: "AIzaSyAoLwWDvszFSxKxrrRgts2sxhKtmalAm94",
@@ -134,18 +160,16 @@
         const app = initializeApp(firebaseConfig);
         const db = getDatabase(app);
 
-        // 전역 변수 설정 (window 객체에 할당하여 모듈 밖에서도 접근 가능하게 함)
         window.db = db;
         window.ref = ref;
         window.set = set;
         window.onValue = onValue;
         
-        // 앱 시작
         initApp();
     </script>
 
     <script>
-        // --- 데이터 (JSON) ---
+        // --- 데이터 (샘플) ---
         const rawVocabulary = [
             { "Word": "promote", "Part of Speech": "verb", "Difficulty": "medium", "Korean Definition": "홍보하다, 촉진하다", "English Definition": "to further the progress of something", "Example Sentence": "The organization works to promote healthy eating habits." },
             { "Word": "proportion", "Part of Speech": "noun", "Difficulty": "hard", "Korean Definition": "비율, 부분, 균형", "English Definition": "the size or amount of something compared to the whole", "Example Sentence": "Cartoons often have exaggerated proportions." },
@@ -156,13 +180,16 @@
 
         // --- 상태 변수 ---
         let userSyncId = localStorage.getItem('voca_sync_id');
-        let statusData = {}; // Firebase에서 가져온 상태 데이터 { "promote": "memorized", ... }
-        let currentList = []; // 현재 필터링된 단어 리스트
+        let statusData = {}; 
+        let currentList = []; 
         let currentIndex = 0;
-        let currentFilter = 'all'; // all, unknown, ambiguous, memorized
-        let isReverseMode = false;
+        let currentFilter = 'all';
+        
+        // 보기 옵션
+        let isReverseMode = false; // 한글 먼저 보기
+        let isEnglishDefMode = false; // 뜻을 영어로 보기
 
-        // --- 초기화 함수 ---
+        // --- 초기화 ---
         function initApp() {
             if (!userSyncId) {
                 document.getElementById('login-modal').classList.remove('hidden');
@@ -184,21 +211,19 @@
         }
 
         function startSync() {
-            // Firebase 실시간 리스너 연결
+            // Firebase 실시간 리스너
             const starCountRef = window.ref(window.db, 'users/' + userSyncId);
             window.onValue(starCountRef, (snapshot) => {
                 const data = snapshot.val();
-                statusData = data || {}; // 데이터가 없으면 빈 객체
-                applyFilter(); // 데이터 변경 시 화면 갱신
-                renderSidebar(); // 사이드바 갱신
+                statusData = data || {}; 
+                applyFilter(); // 리스트 갱신
+                renderSidebar(); // 사이드바 갱신 (데이터 오면 즉시)
             });
         }
 
-        // --- 필터 및 리스트 로직 ---
+        // --- 필터 로직 ---
         window.setFilter = function(filterType) {
             currentFilter = filterType;
-            
-            // 버튼 스타일 업데이트
             ['all', 'unknown', 'ambiguous', 'memorized'].forEach(t => {
                 const btn = document.getElementById(`btn-filter-${t}`);
                 if(t === filterType) {
@@ -209,14 +234,12 @@
                     btn.classList.remove('bg-indigo-600', 'text-white');
                 }
             });
-
             applyFilter();
         }
 
         function applyFilter() {
-            // 데이터 가공: rawVocabulary에 status 정보 결합
             const combinedData = rawVocabulary.map(item => {
-                const status = statusData[item.Word] || 'unknown'; // 기본값 unknown
+                const status = statusData[item.Word] || 'unknown';
                 return { ...item, status: status };
             });
 
@@ -226,122 +249,128 @@
                 currentList = combinedData.filter(item => item.status === currentFilter);
             }
 
-            // 인덱스 초기화 및 카드 렌더링
             currentIndex = 0;
-            if (currentList.length === 0) {
-                renderEmpty();
-            } else {
-                renderCard();
-            }
+            if (currentList.length === 0) renderEmpty();
+            else renderCard();
         }
 
-        // --- 렌더링 로직 ---
+        // --- 렌더링 (핵심 수정 부분) ---
         function renderCard() {
             if(currentList.length === 0) return;
             const item = currentList[currentIndex];
             const card = document.getElementById('card');
             
-            // 카드 뒤집힘 상태 초기화
+            // 카드 뒤집기 초기화
             card.classList.remove('flipped');
-            
-            // 예문 숨기기
             document.getElementById('example-area').classList.add('hidden');
 
             setTimeout(() => {
-                // 텍스트 설정
+                // 상단 정보
                 document.getElementById('card-difficulty').innerText = item.Difficulty.toUpperCase();
                 document.getElementById('card-part').innerText = item['Part of Speech'];
                 document.getElementById('example-text').innerText = item['Example Sentence'];
 
-                if (isReverseMode) {
-                    document.getElementById('card-main-text').innerText = item['Korean Definition'].split(',')[0]; // 첫 번째 뜻만 크게
-                    document.getElementById('card-sub-text').innerText = item.Word;
-                    document.getElementById('card-desc-text').innerText = item['English Definition'];
-                } else {
-                    document.getElementById('card-main-text').innerText = item.Word;
-                    document.getElementById('card-sub-text').innerText = item['Korean Definition'];
-                    document.getElementById('card-desc-text').innerText = item['English Definition'];
+                // 텍스트 변수 준비
+                const word = item.Word;
+                const korDef = item['Korean Definition'];
+                const engDef = item['English Definition'];
+                
+                // 표시 로직 (4가지 경우의 수)
+                let frontText, backMain, backSub;
+
+                // 1. 뜻: 한글 / 모드: 기본 (영어 단어 -> 한글 뜻)
+                if (!isReverseMode && !isEnglishDefMode) {
+                    frontText = word;
+                    backMain = korDef;
+                    backSub = engDef;
+                }
+                // 2. 뜻: 영어 / 모드: 기본 (영어 단어 -> 영어 뜻)
+                else if (!isReverseMode && isEnglishDefMode) {
+                    frontText = word;
+                    backMain = engDef;
+                    backSub = korDef; // 보조로 한글 표시
+                }
+                // 3. 뜻: 한글 / 모드: 리버스 (한글 뜻 -> 영어 단어)
+                else if (isReverseMode && !isEnglishDefMode) {
+                    frontText = korDef; // 여러 개면 다 보여줌
+                    backMain = word;
+                    backSub = engDef;
+                }
+                // 4. 뜻: 영어 / 모드: 리버스 (영어 뜻 -> 영어 단어)
+                else if (isReverseMode && isEnglishDefMode) {
+                    frontText = engDef;
+                    backMain = word;
+                    backSub = korDef;
                 }
 
+                document.getElementById('card-front-text').innerText = frontText;
+                document.getElementById('card-back-main').innerText = backMain;
+                document.getElementById('card-back-sub').innerText = backSub;
+
                 document.getElementById('card-counter').innerText = `${currentIndex + 1} / ${currentList.length}`;
-                
-                // 현재 상태 버튼 하이라이트
                 updateStatusButtons(item.status);
+
             }, 200);
         }
 
         function renderEmpty() {
-            document.getElementById('card-main-text').innerText = "카드 없음";
-            document.getElementById('card-sub-text').innerText = "해당하는 단어가 없습니다.";
-            document.getElementById('card-desc-text').innerText = "";
+            document.getElementById('card-front-text').innerText = "완료!";
+            document.getElementById('card-back-main').innerText = "해당하는 단어가 없습니다.";
+            document.getElementById('card-back-sub').innerText = "필터를 변경해보세요.";
             document.getElementById('card-counter').innerText = "0 / 0";
+        }
+
+        window.toggleViewOptions = function() {
+            isReverseMode = document.getElementById('reverse-mode-toggle').checked;
+            isEnglishDefMode = document.getElementById('english-def-toggle').checked;
+            renderCard(); // 즉시 반영
         }
 
         function updateStatusButtons(currentStatus) {
             ['unknown', 'ambiguous', 'memorized'].forEach(status => {
                 const btn = document.getElementById(`btn-status-${status}`);
-                btn.classList.remove('ring-4', 'ring-indigo-300'); // 기존 링 제거
+                btn.classList.remove('ring-4', 'ring-indigo-300', 'bg-red-50', 'bg-yellow-50', 'bg-green-50');
                 if (status === currentStatus) {
-                    btn.classList.add('ring-4', 'ring-indigo-300'); // 선택 표시
+                    btn.classList.add('ring-4', 'ring-indigo-300');
+                    // 활성화된 배경색 추가
+                    if(status === 'unknown') btn.classList.add('bg-red-50');
+                    if(status === 'ambiguous') btn.classList.add('bg-yellow-50');
+                    if(status === 'memorized') btn.classList.add('bg-green-50');
                 }
             });
         }
 
         // --- 인터랙션 ---
-        window.flipCard = function() {
-            document.getElementById('card').classList.toggle('flipped');
-        }
+        window.flipCard = function() { document.getElementById('card').classList.toggle('flipped'); }
+        window.toggleExample = function() { document.getElementById('example-area').classList.toggle('hidden'); }
+        window.nextCard = function() { if (currentList.length === 0) return; currentIndex = (currentIndex + 1) % currentList.length; renderCard(); }
+        window.prevCard = function() { if (currentList.length === 0) return; currentIndex = (currentIndex - 1 + currentList.length) % currentList.length; renderCard(); }
 
-        window.toggleExample = function() {
-            const area = document.getElementById('example-area');
-            area.classList.toggle('hidden');
-        }
-
-        window.toggleMode = function() {
-            isReverseMode = document.getElementById('mode-toggle').checked;
-            renderCard();
-        }
-
-        window.nextCard = function() {
-            if (currentList.length === 0) return;
-            currentIndex = (currentIndex + 1) % currentList.length;
-            renderCard();
-        }
-
-        window.prevCard = function() {
-            if (currentList.length === 0) return;
-            currentIndex = (currentIndex - 1 + currentList.length) % currentList.length;
-            renderCard();
-        }
-
-        // --- Firebase 업데이트 ---
+        // --- Firebase 업데이트 및 사이드바 ---
         window.updateStatus = function(newStatus) {
             if (currentList.length === 0) return;
             const currentItem = currentList[currentIndex];
             const word = currentItem.Word;
 
-            // Firebase에 저장
+            // 로컬 상태 즉시 반영 (UX 향상)
+            statusData[word] = newStatus;
+            renderSidebar(); // 사이드바 즉시 갱신
+            updateStatusButtons(newStatus); // 버튼 즉시 갱신
+
+            // 서버 저장
             window.set(window.ref(window.db, 'users/' + userSyncId + '/' + word), newStatus)
-                .then(() => {
-                    // 성공 시 UI 즉시 반영 (리스너가 처리하지만 빠른 반응을 위해)
-                    // (onValue 리스너가 다시 호출되어 applyFilter를 실행하므로 자동으로 처리됨)
-                })
-                .catch((error) => {
-                    alert("동기화 실패: " + error.message);
-                });
+                .catch((error) => alert("동기화 실패: " + error.message));
         }
 
-        // --- 사이드바 로직 ---
         window.toggleSidebar = function() {
             const sb = document.getElementById('sidebar');
             const ol = document.getElementById('sidebar-overlay');
             if (sb.classList.contains('closed')) {
-                sb.classList.remove('closed');
-                sb.classList.add('open');
+                sb.classList.remove('closed'); sb.classList.add('open');
                 ol.classList.remove('hidden');
+                renderSidebar(); // 열 때 확실히 렌더링
             } else {
-                sb.classList.remove('open');
-                sb.classList.add('closed');
+                sb.classList.remove('open'); sb.classList.add('closed');
                 ol.classList.add('hidden');
             }
         }
@@ -350,37 +379,40 @@
             const container = document.getElementById('sidebar-content');
             container.innerHTML = '';
 
-            // 상태별 그룹화
             const groups = { unknown: [], ambiguous: [], memorized: [] };
             rawVocabulary.forEach(item => {
                 const st = statusData[item.Word] || 'unknown';
-                groups[st].push(item);
+                if(groups[st]) groups[st].push(item);
             });
 
             const labels = { unknown: '🔴 못외움', ambiguous: '🟡 애매함', memorized: '🟢 외움' };
 
-            // 트리 생성
             for (const [key, list] of Object.entries(groups)) {
-                if (list.length === 0) continue;
-
+                // 리스트가 비어있어도 그룹 헤더는 보여주는게 좋을 수 있지만, 여기선 데이터 있는 것만 표시
                 const details = document.createElement('details');
-                details.open = true; // 기본 펼침
+                details.open = true;
                 
                 const summary = document.createElement('summary');
-                summary.className = "cursor-pointer font-bold text-gray-700 py-2 select-none list-none flex items-center";
-                summary.innerHTML = `<span class="mr-2 transform transition-transform duration-200">▶</span> ${labels[key]} (${list.length})`;
-                // 화살표 회전 스타일 (CSS 필요하지만 간단히 텍스트로 대체)
+                summary.className = "cursor-pointer font-bold text-gray-700 py-2 select-none list-none flex items-center hover:bg-gray-50 rounded px-2";
+                summary.innerHTML = `<span class="mr-2 text-xs">▼</span> ${labels[key]} <span class="ml-auto text-xs bg-gray-200 px-2 py-0.5 rounded-full text-gray-600">${list.length}</span>`;
                 
                 const ul = document.createElement('ul');
-                ul.className = "pl-4 space-y-1 mt-1 border-l-2 border-gray-100";
+                ul.className = "pl-2 space-y-1 mt-1 mb-4";
 
-                list.forEach(wordItem => {
-                    const li = document.createElement('li');
-                    li.className = "text-sm text-gray-600 hover:text-indigo-600 cursor-pointer py-1 truncate";
-                    li.innerText = `${wordItem.Word} : ${wordItem['Korean Definition']}`;
-                    li.onclick = () => jumpToWord(wordItem.Word);
-                    ul.appendChild(li);
-                });
+                if (list.length === 0) {
+                    const emptyLi = document.createElement('li');
+                    emptyLi.className = "text-xs text-gray-400 pl-4 py-1";
+                    emptyLi.innerText = "(없음)";
+                    ul.appendChild(emptyLi);
+                } else {
+                    list.forEach(wordItem => {
+                        const li = document.createElement('li');
+                        li.className = "text-sm text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 cursor-pointer py-1.5 px-2 rounded truncate transition";
+                        li.innerText = `${wordItem.Word}`;
+                        li.onclick = () => jumpToWord(wordItem.Word);
+                        ul.appendChild(li);
+                    });
+                }
 
                 details.appendChild(summary);
                 details.appendChild(ul);
@@ -389,29 +421,28 @@
         }
 
         function jumpToWord(word) {
-            // 현재 필터에서 해당 단어가 있는지 확인
-            // 있으면 이동, 없으면 필터를 'all'로 바꾸고 이동
-            let targetIndex = currentList.findIndex(item => item.Word === word);
-            
-            if (targetIndex === -1) {
-                // 현재 필터 리스트에 없으면 전체 보기로 강제 전환
-                window.setFilter('all');
-                targetIndex = currentList.findIndex(item => item.Word === word);
-                document.getElementById('btn-filter-all').click(); // UI 동기화
+            // 현재 필터와 상관없이 전체에서 찾아서 이동할지, 필터를 풀지 결정
+            // UX상 필터를 '전체'로 바꾸고 이동하는게 가장 확실함
+            if (currentFilter !== 'all') {
+                document.getElementById('btn-filter-all').click(); // 전체 필터 클릭 트리거
             }
-
+            
+            // setFilter가 비동기가 아니므로 바로 검색 가능
+            // 다만 setFilter 내부에서 renderCard를 하므로, 인덱스만 찾아서 다시 render
+            const targetIndex = currentList.findIndex(item => item.Word === word);
             if (targetIndex !== -1) {
                 currentIndex = targetIndex;
                 renderCard();
-                toggleSidebar(); // 사이드바 닫기
+                // 모바일에서는 사이드바 닫기
+                if(window.innerWidth < 768) toggleSidebar();
             }
         }
-        
-        // 키보드 이벤트
+
+        // 키보드 조작
         document.addEventListener('keydown', (e) => {
             if(e.key === 'ArrowRight') nextCard();
             else if(e.key === 'ArrowLeft') prevCard();
-            else if(e.key === ' ') { e.preventDefault(); flipCard(); }
+            else if(e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
         });
 
     </script>
