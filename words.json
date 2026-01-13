@@ -1,0 +1,3099 @@
+[
+  {
+    "Word": "abundant",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "풍부한, 많은",
+    "English Definition": "present in large quantities",
+    "Example Sentence": "Because the island has abundant rain, it is covered in thick, green forests."
+  },
+  {
+    "Word": "access",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "easy",
+    "Korean Definition": "접근, 입장; 접근하다, 들어가다",
+    "English Definition": "the ability to go into (when somebody or something must allow you to enter); to go into something when allowed to enter",
+    "Example Sentence": "Only students have access to the university library."
+  },
+  {
+    "Word": "accumulate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "축적하다, 모으다, 쌓이다",
+    "English Definition": "to gradually collect; to gather together over time",
+    "Example Sentence": "Dust tends to accumulate quickly under the bed if you don't clean regularly."
+  },
+  {
+    "Word": "accurate",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "정확한, 정밀한",
+    "English Definition": "correct (about information, not opinions); free from errors",
+    "Example Sentence": "That test is not an accurate test of intelligence."
+  },
+  {
+    "Word": "accustomed",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "익숙한",
+    "English Definition": "used to something; familiar with something so that it seems normal",
+    "Example Sentence": "After living in Alaska for a year, he became accustomed to the cold weather."
+  },
+  {
+    "Word": "achieve",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "성취하다, 달성하다",
+    "English Definition": "to accomplish a goal",
+    "Example Sentence": "The best students know that to achieve good grades, they have to study every day."
+  },
+  {
+    "Word": "acquire",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "얻다, 습득하다, 획득하다",
+    "English Definition": "to get (especially when you will continue to get more); to come into possession of",
+    "Example Sentence": "Janice isn't a doctor yet, but from her studies she's slowly acquiring the knowledge and skills she'll need."
+  },
+  {
+    "Word": "adamant",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "요지부동의, 단호한, 고집 센",
+    "English Definition": "refusing to change an opinion; unyielding",
+    "Example Sentence": "Despite the evidence, the politician remained adamant that his policy was correct."
+  },
+  {
+    "Word": "adequate",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "충분한, 적절한",
+    "English Definition": "good enough for what you need; enough to suit your needs",
+    "Example Sentence": "A very light jacket will be adequate for Los Angeles's warm winter."
+  },
+  {
+    "Word": "adjacent",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "인접한, 가까운",
+    "English Definition": "close to or next to",
+    "Example Sentence": "The fire station is adjacent to the school, ensuring a quick response in emergencies."
+  },
+  {
+    "Word": "adjust",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "조절하다, 적응하다, 맞추다",
+    "English Definition": "to change or move a little and make better or more accurate; to change something so it serves its purpose better",
+    "Example Sentence": "The colors on this TV screen are wrong. I'll adjust them."
+  },
+  {
+    "Word": "administration",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "관리, 행정, 집행부",
+    "English Definition": "the running of something or an organization (business, school, government, etc); the person or people in charge",
+    "Example Sentence": "The university administration cancelled all school events after a bad storm left most buildings without electricity."
+  },
+  {
+    "Word": "advantage",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "이점, 장점, 우위",
+    "English Definition": "something that makes it easier to achieve success; a positive factor",
+    "Example Sentence": "Being tall gives basketball players a significant advantage over shorter opponents."
+  },
+  {
+    "Word": "adverse",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "부정적인, 불리한, 반대의",
+    "English Definition": "unfavorable; against one's desires",
+    "Example Sentence": "The medication was effective, but it had some adverse side effects like headaches."
+  },
+  {
+    "Word": "advocate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "지지하다, 옹호하다",
+    "English Definition": "to publicly support",
+    "Example Sentence": "Environmental groups advocate for stricter laws to protect endangered species."
+  },
+  {
+    "Word": "affect",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "영향을 미치다",
+    "English Definition": "to change, make different, have an effect",
+    "Example Sentence": "Which language we speak affects how we think about the world."
+  },
+  {
+    "Word": "aggregate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "모으다, 종합하다; 합계",
+    "English Definition": "to combine; to gather into a mass or whole",
+    "Example Sentence": "The website aggregates news stories from dozens of different sources into one page."
+  },
+  {
+    "Word": "aggressive",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "공격적인, 적극적인",
+    "English Definition": "assertive and pushy; ready to attack or confront",
+    "Example Sentence": "The aggressive marketing campaign helped the company double its sales in one year."
+  },
+  {
+    "Word": "allocate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "할당하다, 배분하다",
+    "English Definition": "to put aside for a specific purpose; to distribute",
+    "Example Sentence": "The government decided to allocate more funds to education this year."
+  },
+  {
+    "Word": "alter",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "바꾸다, 변경하다",
+    "English Definition": "to change, to adjust",
+    "Example Sentence": "Magazines heavily alter the photos of celebrities they publish."
+  },
+  {
+    "Word": "alternative",
+    "Part of Speech": "noun, adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "대안; 대안의, 다른",
+    "English Definition": "other possibility or option; different, other than the main option",
+    "Example Sentence": "The menu includes alternatives for students who don't eat meat."
+  },
+  {
+    "Word": "amateur",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "아마추어, 비전문가",
+    "English Definition": "someone who is inexperienced or not highly skilled in a particular area",
+    "Example Sentence": "Although he is an amateur photographer, his pictures look very professional."
+  },
+  {
+    "Word": "ambiguous",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "애매모호한, 불분명한",
+    "English Definition": "having several potential meanings; unclear and difficult to understand",
+    "Example Sentence": "The ending of the movie was ambiguous, leaving the audience to decide what really happened."
+  },
+  {
+    "Word": "ambitious",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "야망 있는, 의욕적인",
+    "English Definition": "having large goals; showing a strong desire and determination to succeed",
+    "Example Sentence": "The ambitious engineer planned to build a bridge longer than any other in the world."
+  },
+  {
+    "Word": "amend",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "개정하다, 수정하다",
+    "English Definition": "to change for the better; to improve (usually a document or law)",
+    "Example Sentence": "The constitution was amended to allow women the right to vote."
+  },
+  {
+    "Word": "ample",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "충분한, 풍부한",
+    "English Definition": "plentiful; enough or more than enough",
+    "Example Sentence": "There was ample space in the car for all of our luggage."
+  },
+  {
+    "Word": "analyze",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "분석하다",
+    "English Definition": "to try to understand something better by closely looking at its details",
+    "Example Sentence": "The accountant was too busy with paperwork to analyze the report that said the company had no money."
+  },
+  {
+    "Word": "annual",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "매년의, 연례의",
+    "English Definition": "yearly; happening every year",
+    "Example Sentence": "Everyone in Manchester was excited about the annual game between the city's two soccer teams."
+  },
+  {
+    "Word": "anomaly",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "이례적인 것, 변칙, 예외",
+    "English Definition": "deviation from the norm; something that deviates from what is standard",
+    "Example Sentence": "Snow in the middle of summer is an anomaly that surprised the meteorologists."
+  },
+  {
+    "Word": "antagonize",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "적대감을 불러일으키다, 반감을 사다",
+    "English Definition": "to tease or be hostile towards a person or group",
+    "Example Sentence": "He didn't mean to antagonize his coworkers, but his criticism was taken personally."
+  },
+  {
+    "Word": "apparent",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "분명한; 겉보기의",
+    "English Definition": "clearly seen or understood; seeming (but not definitely true)",
+    "Example Sentence": "After only a few months, it was apparent that the French would not win the war."
+  },
+  {
+    "Word": "approach",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "common",
+    "Korean Definition": "접근하다; 접근법, 처리 방법",
+    "English Definition": "to come/go closer to something or someone; a way to do something",
+    "Example Sentence": "The new CEO had a very strange approach to management, letting his employees sleep whenever they wanted."
+  },
+  {
+    "Word": "arbitrary",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "임의적인, 제멋대로인",
+    "English Definition": "based on a whim or random desire rather than reason",
+    "Example Sentence": "The decision to promote him seemed arbitrary, as he had less experience than the others."
+  },
+  {
+    "Word": "arduous",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "힘든, 고된",
+    "English Definition": "requiring a lot of effort; difficult and tiring",
+    "Example Sentence": "Climbing Mount Everest is an arduous journey that tests both physical and mental strength."
+  },
+  {
+    "Word": "area",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "분야, 영역; 지역",
+    "English Definition": "a range of subjects or studies, a field, a discipline",
+    "Example Sentence": "Researchers working in many different areas, from psychology to physics, will be able to use the new type of plastic."
+  },
+  {
+    "Word": "aspect",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "측면, 양상",
+    "English Definition": "a feature, a characteristic, a particular part of something",
+    "Example Sentence": "The three most important aspects to think about when learning a language are grammar, vocabulary, and pronunciation."
+  },
+  {
+    "Word": "assess",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "평가하다, 산정하다",
+    "English Definition": "to look closely at and figure out the value or type of something",
+    "Example Sentence": "Before buying a house, you should always assess the building carefully."
+  },
+  {
+    "Word": "assist",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "돕다, 지원하다",
+    "English Definition": "to help or aid",
+    "Example Sentence": "The box was too big to carry, so John asked the store manager to assist him."
+  },
+  {
+    "Word": "assuage",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "달래다, 완화시키다",
+    "English Definition": "to lessen a negative feeling; to soothe",
+    "Example Sentence": "To assuage her guilt, she apologized to everyone she had offended."
+  },
+  {
+    "Word": "assume",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "가정하다, 추정하다; (책임 등을) 떠맡다",
+    "English Definition": "to believe without proof; to suppose",
+    "Example Sentence": "Ahmed assumed his forgetful professor wouldn't remember their meeting, but the professor was already waiting for him."
+  },
+  {
+    "Word": "attitude",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "태도, 자세",
+    "English Definition": "a set way of thinking or a set feeling about something or someone",
+    "Example Sentence": "Zach always has a positive attitude when he has to deal with a problem at work."
+  },
+  {
+    "Word": "attribute",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "medium",
+    "Korean Definition": "~의 탓(덕분)으로 돌리다; 속성, 특질",
+    "English Definition": "to give an event or person credit for something; a quality or feature that is an important part of something",
+    "Example Sentence": "The museum director attributed the recently discovered painting to Van Gogh."
+  },
+  {
+    "Word": "augment",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "증가시키다, 늘리다",
+    "English Definition": "to increase or make larger; to add to",
+    "Example Sentence": "He took a second job to augment his income and pay off his debts faster."
+  },
+  {
+    "Word": "authority",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "권한, 당국, 권위",
+    "English Definition": "control or responsibility over something (people, area, laws, etc)",
+    "Example Sentence": "Only Congress has the authority to make and pass laws for the country."
+  },
+  {
+    "Word": "available",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "이용 가능한, 시간이 있는",
+    "English Definition": "able to be reached, used, or bought",
+    "Example Sentence": "The advisor was not available to meet all day Monday, so the student had to come back on Tuesday."
+  },
+  {
+    "Word": "aware",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "알고 있는, 인식하는",
+    "English Definition": "to have knowledge of; being conscious of",
+    "Example Sentence": "As Helen drove away from the gas station, she wasn't aware that her lights were off."
+  },
+  {
+    "Word": "benefit",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "이익, 혜택",
+    "English Definition": "something positive or advantageous; something good coming from an action",
+    "Example Sentence": "The president flew around the country, talking about the benefits of the new health care law."
+  },
+  {
+    "Word": "berate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "호되게 꾸짖다, 야단치다",
+    "English Definition": "to scold strictly or angrily",
+    "Example Sentence": "The coach berated the players for their lack of effort during the game."
+  },
+  {
+    "Word": "bestow",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "수여하다, 부여하다",
+    "English Definition": "to give as a gift; to confer",
+    "Example Sentence": "The university bestowed an honorary degree upon the famous author."
+  },
+  {
+    "Word": "boast",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "자랑하다, 뽐내다",
+    "English Definition": "to brag or talk with excessive pride",
+    "Example Sentence": "He likes to boast about his expensive car, which annoys his friends."
+  },
+  {
+    "Word": "boost",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "북돋우다, 신장시키다",
+    "English Definition": "to help raise or increase something",
+    "Example Sentence": "The advertising campaign was designed to boost sales during the holiday season."
+  },
+  {
+    "Word": "brash",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "성급한, 건방진, 무모한",
+    "English Definition": "rude and tactless; self-assertive in a rude way",
+    "Example Sentence": "His brash behavior at the meeting offended several of the senior managers."
+  },
+  {
+    "Word": "brief",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "짧은, 잠시의, 간결한",
+    "English Definition": "short (in terms of time); not long-lasting",
+    "Example Sentence": "Before we begin class, let me briefly introduce myself."
+  },
+  {
+    "Word": "brusque",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "무뚝뚝한, 퉁명스러운",
+    "English Definition": "abrupt to the point of rudeness; curt",
+    "Example Sentence": "She asked for a refund, but the clerk gave a brusque reply and walked away."
+  },
+  {
+    "Word": "cacophony",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "불협화음, 소음",
+    "English Definition": "a harsh, unpleasant mixture of noise",
+    "Example Sentence": "The classroom was filled with a cacophony of shouts and laughter as the students played."
+  },
+  {
+    "Word": "capable",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "~할 수 있는, 유능한",
+    "English Definition": "able to do",
+    "Example Sentence": "Near the age of twelve months, children are capable of walking."
+  },
+  {
+    "Word": "capacity",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "수용력, 용량; 능력",
+    "English Definition": "the amount or volume something can hold; ability (especially mental)",
+    "Example Sentence": "Few birds have the capacity to recognize themselves when looking in a mirror."
+  },
+  {
+    "Word": "cease",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "중단하다, 멈추다",
+    "English Definition": "to stop",
+    "Example Sentence": "The factory ceased operations after the fire destroyed the machinery."
+  },
+  {
+    "Word": "censure",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "비난하다, 책망하다",
+    "English Definition": "to express strong disapproval",
+    "Example Sentence": "The senator was censured by the committee for his inappropriate comments."
+  },
+  {
+    "Word": "challenge",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "easy",
+    "Korean Definition": "이의를 제기하다; 도전, 난제",
+    "English Definition": "to say something isn't true; something difficult; to suggest a fight or argument",
+    "Example Sentence": "Einstein's writings challenged many ideas of the time."
+  },
+  {
+    "Word": "chronological",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "연대순의, 시간 순서대로의",
+    "English Definition": "arranged in order of time or date",
+    "Example Sentence": "The history textbook lists the events of the war in chronological order."
+  },
+  {
+    "Word": "circumstance",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "상황, 환경",
+    "English Definition": "the situation, facts or environment around an event",
+    "Example Sentence": "My professor only gives extra time to finish essays under special circumstances."
+  },
+  {
+    "Word": "clarify",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "명확하게 하다, 분명히 설명하다",
+    "English Definition": "to make clear; to remove confusion",
+    "Example Sentence": "Could you please clarify your last point? I didn't quite understand it."
+  },
+  {
+    "Word": "coalesce",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "합치다, 연합하다",
+    "English Definition": "to combine or grow together",
+    "Example Sentence": "The different groups coalesced into a single powerful movement."
+  },
+  {
+    "Word": "coerce",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "강요하다, 강제하다",
+    "English Definition": "to force someone to do something against their will",
+    "Example Sentence": "The suspect claimed that he was coerced into signing the confession."
+  },
+  {
+    "Word": "cognizant",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "인식하고 있는, 알고 있는",
+    "English Definition": "being aware or having knowledge of something",
+    "Example Sentence": "She was fully cognizant of the risks involved in the investment."
+  },
+  {
+    "Word": "cohesion",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "결속, 응집력",
+    "English Definition": "uniting; becoming one",
+    "Example Sentence": "Team building exercises are designed to improve social cohesion among employees."
+  },
+  {
+    "Word": "coincide",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "동시에 일어나다, 일치하다",
+    "English Definition": "to occur at the same time",
+    "Example Sentence": "My birthday coincides with a national holiday this year."
+  },
+  {
+    "Word": "collapse",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "붕괴하다, 무너지다",
+    "English Definition": "to fall down or break down",
+    "Example Sentence": "The old bridge collapsed under the weight of the heavy truck."
+  },
+  {
+    "Word": "collide",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "충돌하다, 부딪치다",
+    "English Definition": "to hit one another with a forceful impact",
+    "Example Sentence": "The two cars collided at the intersection because the traffic light was broken."
+  },
+  {
+    "Word": "comment",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "easy",
+    "Korean Definition": "논평, 언급; 논평하다",
+    "English Definition": "an observation, note, or response; to say a short response or opinion",
+    "Example Sentence": "The professor was angry about the negative comments made about his teaching style."
+  },
+  {
+    "Word": "commit",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "(죄를) 저지르다; 약속하다; 전념하다",
+    "English Definition": "to do or perform (negative action); to promise to; to give all energy to",
+    "Example Sentence": "I'm completely committed to our baseball team's success; I'd do anything to win."
+  },
+  {
+    "Word": "community",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "공동체, 지역사회",
+    "English Definition": "a group of people living or working together",
+    "Example Sentence": "The Spanish-speaking community within New York City includes millions of people."
+  },
+  {
+    "Word": "compensate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "보상하다, 보완하다",
+    "English Definition": "to help correct a problem with another, positive thing",
+    "Example Sentence": "The pay at Ian's new job was low, but the freedom his boss gave him compensated for that."
+  },
+  {
+    "Word": "complex",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "복잡한",
+    "English Definition": "with many different parts and difficult to understand; complicated",
+    "Example Sentence": "The science behind the atomic bomb was highly complex at the time."
+  },
+  {
+    "Word": "component",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "구성 요소, 부품",
+    "English Definition": "a part of a whole",
+    "Example Sentence": "Many electronics are made of thousands of smaller components and wires."
+  },
+  {
+    "Word": "conceal",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "숨기다, 감추다",
+    "English Definition": "to hide",
+    "Example Sentence": "He tried to conceal his disappointment with a fake smile."
+  },
+  {
+    "Word": "concentrate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "집중하다; 모으다",
+    "English Definition": "to focus attention on something; to come together into a smaller space",
+    "Example Sentence": "You must learn to concentrate to be successful on the test."
+  },
+  {
+    "Word": "concept",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "개념",
+    "English Definition": "an abstract idea",
+    "Example Sentence": "Some concepts within advanced mathematics are hard to show in the real world."
+  },
+  {
+    "Word": "concur",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "동의하다, 일치하다",
+    "English Definition": "to agree",
+    "Example Sentence": "The board members concurred with the chairman's decision to merge."
+  },
+  {
+    "Word": "conduct",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "수행하다, 실시하다",
+    "English Definition": "to organize and manage (for an event that takes careful planning)",
+    "Example Sentence": "My research team is conducting a study on how the Internet is changing dating."
+  },
+  {
+    "Word": "conflict",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "갈등, 충돌",
+    "English Definition": "an argument, long battle, or difference of opinions",
+    "Example Sentence": "The conflict in Syria has forced many people to leave the country."
+  },
+  {
+    "Word": "consequence",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "결과",
+    "English Definition": "result, effect, what happens because of an event",
+    "Example Sentence": "If you hurt the people around you, there will be unwanted consequences."
+  },
+  {
+    "Word": "considerable",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "상당한, 적지 않은",
+    "English Definition": "large enough or important enough to get special notice",
+    "Example Sentence": "A considerable number of popular sports were invented in only the last 100 years."
+  },
+  {
+    "Word": "consist",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "~로 구성되다",
+    "English Definition": "to be made of",
+    "Example Sentence": "The U.S. consists of fifty states."
+  },
+  {
+    "Word": "constant",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "끊임없는, 변함없는",
+    "English Definition": "not changing and not stopping; continuous",
+    "Example Sentence": "The river flows constantly through the year and never freezes."
+  },
+  {
+    "Word": "constitute",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "구성하다, ~이 되다",
+    "English Definition": "to be the pieces that make a whole",
+    "Example Sentence": "Fifty states constitute the U.S.A."
+  },
+  {
+    "Word": "constrain",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "제한하다, 억제하다",
+    "English Definition": "to limit the activity of; to restrict",
+    "Example Sentence": "Popular belief says that a pet fish's size is constrained by the size of the tank it's in."
+  },
+  {
+    "Word": "construct",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "건설하다, 구성하다",
+    "English Definition": "to build",
+    "Example Sentence": "The land flooded every year, so it was unsafe to construct buildings on it."
+  },
+  {
+    "Word": "consume",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "소비하다, 섭취하다",
+    "English Definition": "to eat; to use",
+    "Example Sentence": "No country consumes more oil than the U.S.A."
+  },
+  {
+    "Word": "contact",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "easy",
+    "Korean Definition": "연락하다; 연락, 접촉",
+    "English Definition": "to communicate; communication; touching",
+    "Example Sentence": "Liam is still in contact with many of his high-school teachers."
+  },
+  {
+    "Word": "contemplate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "심사숙고하다, 고려하다",
+    "English Definition": "to consider thoughtfully",
+    "Example Sentence": "She contemplated moving to a different city for a fresh start."
+  },
+  {
+    "Word": "context",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "문맥, 맥락",
+    "English Definition": "the information or situation around an idea, event, or something that is said",
+    "Example Sentence": "When you have difficulty understanding a new word, look at the context."
+  },
+  {
+    "Word": "contradict",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "모순되다, 반박하다",
+    "English Definition": "to give the opposite opinion",
+    "Example Sentence": "The witness's statement contradicted the evidence found at the scene."
+  },
+  {
+    "Word": "contrast",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "common",
+    "Korean Definition": "대조하다; 대조, 차이",
+    "English Definition": "to look specifically at the differences; to be clearly different",
+    "Example Sentence": "The zebra's black and white stripes contrast clearly with the yellow grass around it."
+  },
+  {
+    "Word": "contribute",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "기여하다, 이바지하다",
+    "English Definition": "to give something to help reach a goal; to add to the cause",
+    "Example Sentence": "I smoked a lot when I was younger, and that's contributed to my health problems today."
+  },
+  {
+    "Word": "convey",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "전달하다, 운반하다",
+    "English Definition": "to make known; to transport",
+    "Example Sentence": "She conveyed her gratitude with a warm smile."
+  },
+  {
+    "Word": "coordinate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "조정하다, 조직하다",
+    "English Definition": "to work with or communicate with the different people or pieces involved",
+    "Example Sentence": "A chef at a big restaurant will spend his time coordinating all the workings of the kitchen."
+  },
+  {
+    "Word": "copious",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "방대한, 엄청난 양의",
+    "English Definition": "abundant; plentiful",
+    "Example Sentence": "She took copious notes during the lecture to ensure she didn't miss any details."
+  },
+  {
+    "Word": "core",
+    "Part of Speech": "noun, adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "핵심; 핵심적인",
+    "English Definition": "the center of something; central, of fundamental importance",
+    "Example Sentence": "Although we have made improvements in brain science, many of the core problems remain."
+  },
+  {
+    "Word": "correspond",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "일치하다, 상응하다; 서신을 주고받다",
+    "English Definition": "to be a close match; to send letters back and forth",
+    "Example Sentence": "This new paint for the room does not correspond to the old paint."
+  },
+  {
+    "Word": "criteria",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "기준, 표준",
+    "English Definition": "the measures by which you judge or decide something",
+    "Example Sentence": "A good TOEFL essay includes a few criteria, including good structure and clear ideas."
+  },
+  {
+    "Word": "cumbersome",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "다루기 힘든, 성가신",
+    "English Definition": "burdensome; clumsy",
+    "Example Sentence": "The old machinery was cumbersome and difficult to operate."
+  },
+  {
+    "Word": "data",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "자료, 데이터",
+    "English Definition": "information, facts",
+    "Example Sentence": "We collect data on the oceans' temperatures every year."
+  },
+  {
+    "Word": "debate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "토론하다, 논쟁하다",
+    "English Definition": "to argue, usually in a formal, polite way",
+    "Example Sentence": "Watching the presidential debates on TV did not help me decide who to vote for."
+  },
+  {
+    "Word": "decay",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "부패하다, 쇠퇴하다",
+    "English Definition": "to decline in health or excellence",
+    "Example Sentence": "Sugar can cause your teeth to decay if you don't brush them regularly."
+  },
+  {
+    "Word": "deceive",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "속이다, 기만하다",
+    "English Definition": "to trick or mislead",
+    "Example Sentence": "The magician deceived the audience with his clever hand movements."
+  },
+  {
+    "Word": "decipher",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "해독하다, 판독하다",
+    "English Definition": "to find the meaning of; to decode",
+    "Example Sentence": "It took years for scholars to decipher the ancient hieroglyphics."
+  },
+  {
+    "Word": "decline",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "medium",
+    "Korean Definition": "거절하다; 감소하다; 감소",
+    "English Definition": "to politely refuse; to become less/fewer; a slow continuous loss",
+    "Example Sentence": "I declined dinner because I had plans to eat with my family instead."
+  },
+  {
+    "Word": "deduce",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "추론하다",
+    "English Definition": "to come to a conclusion through logic and evidence",
+    "Example Sentence": "By analyzing the bones, we can deduce when the animal lived."
+  },
+  {
+    "Word": "demonstrate",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "입증하다, 보여주다",
+    "English Definition": "to show an example of, to prove with evidence",
+    "Example Sentence": "At eight years old, Mozart demonstrated his musical ability in London."
+  },
+  {
+    "Word": "deplete",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "고갈시키다, 대폭 감소시키다",
+    "English Definition": "to significantly decrease; to use up",
+    "Example Sentence": "Overfishing has depleted the fish population in this area."
+  },
+  {
+    "Word": "deposit",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "예금하다; (특정한 곳에) 두다",
+    "English Definition": "to deliver and leave an item",
+    "Example Sentence": "He went to the bank to deposit his paycheck."
+  },
+  {
+    "Word": "derive",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "유래하다, 얻다",
+    "English Definition": "to get or create from; to originate from",
+    "Example Sentence": "Many European languages are derived at least partly from Latin."
+  },
+  {
+    "Word": "detect",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "감지하다, 발견하다",
+    "English Definition": "to locate something",
+    "Example Sentence": "The smoke alarm detected the fire immediately."
+  },
+  {
+    "Word": "deviate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "벗어나다, 일탈하다",
+    "English Definition": "to differ from the norm",
+    "Example Sentence": "The plane had to deviate from its original flight path due to the storm."
+  },
+  {
+    "Word": "devise",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "고안하다, 창안하다",
+    "English Definition": "to plan or create",
+    "Example Sentence": "They devised a plan to escape from the locked room."
+  },
+  {
+    "Word": "dilemma",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "딜레마, 진퇴양난",
+    "English Definition": "a situation where one must choose between two difficult choices",
+    "Example Sentence": "He faced a dilemma: should he accept the job offer or stay in school?"
+  },
+  {
+    "Word": "diminish",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "줄어들다, 약화시키다",
+    "English Definition": "to shrink or reduce",
+    "Example Sentence": "His influence in the company diminished after the scandal."
+  },
+  {
+    "Word": "discrete",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "별개의, 분리된",
+    "English Definition": "separate, not the same thing and with no parts in common",
+    "Example Sentence": "Your left arm and right arm are controlled by two discrete areas of the brain."
+  },
+  {
+    "Word": "distinct",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "뚜렷한, 분명한, 별개의",
+    "English Definition": "clearly different from",
+    "Example Sentence": "There are at least five distinct types of turtle living on the island."
+  },
+  {
+    "Word": "distribute",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "분배하다, 나누어 주다",
+    "English Definition": "to give out something; to give portions of something",
+    "Example Sentence": "The teacher distributed tests to the class."
+  },
+  {
+    "Word": "diverse",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "다양한",
+    "English Definition": "having many different types",
+    "Example Sentence": "The student population is incredibly diverse, with students from 30 different countries."
+  },
+  {
+    "Word": "dynamic",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "역동적인, 활발한",
+    "English Definition": "constantly changing",
+    "Example Sentence": "The market is dynamic and changes every day."
+  },
+  {
+    "Word": "efficient",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "효율적인",
+    "English Definition": "maximizing productivity",
+    "Example Sentence": "LED lights are more efficient than traditional light bulbs."
+  },
+  {
+    "Word": "eliminate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "제거하다, 없애다",
+    "English Definition": "to remove",
+    "Example Sentence": "You can eliminate wrong answers to improve your chance of guessing correctly."
+  },
+  {
+    "Word": "eloquent",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "웅변을 잘하는, 유창한",
+    "English Definition": "moving speech or writing",
+    "Example Sentence": "The politician gave an eloquent speech that inspired the crowd."
+  },
+  {
+    "Word": "emerge",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "나타나다, 드러나다",
+    "English Definition": "to come out of",
+    "Example Sentence": "After a winter spent sleeping, the bear emerges from its cave."
+  },
+  {
+    "Word": "emphasize",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "강조하다",
+    "English Definition": "to place extra importance on one part",
+    "Example Sentence": "Most modern art emphasizes creativity and emotion, not skill."
+  },
+  {
+    "Word": "enable",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "가능하게 하다",
+    "English Definition": "to make something possible",
+    "Example Sentence": "The classes in college will enable you to find a good job."
+  },
+  {
+    "Word": "endure",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "견디다, 참다",
+    "English Definition": "to suffer through something difficult with patience",
+    "Example Sentence": "Marathon runners must endure pain and exhaustion to finish the race."
+  },
+  {
+    "Word": "enhance",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "향상시키다, 강화하다",
+    "English Definition": "to intensify or magnify; to improve",
+    "Example Sentence": "Adding spices can enhance the flavor of the dish."
+  },
+  {
+    "Word": "ensure",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "보장하다, 확실하게 하다",
+    "English Definition": "to make sure or certain",
+    "Example Sentence": "Please ensure that all doors are locked before leaving."
+  },
+  {
+    "Word": "entity",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "독립체, 실체",
+    "English Definition": "a thing that exists or acts as one unit",
+    "Example Sentence": "The two companies merged to form a single corporate entity."
+  },
+  {
+    "Word": "equivalent",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "동등한, 대등한",
+    "English Definition": "equal",
+    "Example Sentence": "His 6.7 GPA in his home country was equivalent to a 3.2 GPA in the United States."
+  },
+  {
+    "Word": "establish",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "설립하다, 확립하다",
+    "English Definition": "to build, to create (of a system, organization, or idea)",
+    "Example Sentence": "The U.S. government was established in the late 1700s."
+  },
+  {
+    "Word": "estimate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "추정하다, 견적을 내다",
+    "English Definition": "to determine roughly the value or number of something",
+    "Example Sentence": "Be careful to not forget any costs for the year when you estimate your budget."
+  },
+  {
+    "Word": "evaluate",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "평가하다",
+    "English Definition": "to form an idea of the amount, number or value of something; to assess",
+    "Example Sentence": "Students are evaluated by their grades on tests, homework, and essays."
+  },
+  {
+    "Word": "evidence",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "증거",
+    "English Definition": "facts or evidence that help prove or disprove something",
+    "Example Sentence": "The police found no evidence linking him to the crime."
+  },
+  {
+    "Word": "evolve",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "진화하다, 발전하다",
+    "English Definition": "to gradually change",
+    "Example Sentence": "Birds are believed to have evolved from dinosaurs."
+  },
+  {
+    "Word": "exclude",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "제외하다, 배제하다",
+    "English Definition": "to not include, to not put in a list or group",
+    "Example Sentence": "I eat almost anything, excluding spicy foods."
+  },
+  {
+    "Word": "expand",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "확장하다, 넓히다",
+    "English Definition": "to make larger; to give more detail on a subject",
+    "Example Sentence": "Blowing air into a balloon will cause it to expand."
+  },
+  {
+    "Word": "expertise",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "전문 지식",
+    "English Definition": "expert knowledge or skill in a particular field",
+    "Example Sentence": "We hired him for his expertise in computer programming."
+  },
+  {
+    "Word": "exploit",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "이용하다, 착취하다",
+    "English Definition": "to use selfishly",
+    "Example Sentence": "The company was accused of exploiting its workers by paying them very low wages."
+  },
+  {
+    "Word": "expose",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "드러내다, 폭로하다, 노출시키다",
+    "English Definition": "to show or reveal something that was hidden",
+    "Example Sentence": "The politician's crimes were exposed and he was forced to leave his position."
+  },
+  {
+    "Word": "external",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "외부의",
+    "English Definition": "outside (especially of a body or system)",
+    "Example Sentence": "Uncontrollable, external events can cause even a very careful company to fail."
+  },
+  {
+    "Word": "facilitate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "용이하게 하다, 촉진하다",
+    "English Definition": "to make easy or easier",
+    "Example Sentence": "Classical music will generally facilitate learning and improve memory."
+  },
+  {
+    "Word": "factor",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "요인, 요소",
+    "English Definition": "a fact that influences or changes a result",
+    "Example Sentence": "Two of the largest factors affecting children's healthy growth are food and relationships with parents."
+  },
+  {
+    "Word": "feasible",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "실현 가능한",
+    "English Definition": "possible to do",
+    "Example Sentence": "It is not feasible to finish this project by tomorrow; we need more time."
+  },
+  {
+    "Word": "feature",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "common",
+    "Korean Definition": "특징; 특징으로 삼다",
+    "English Definition": "an important characteristic; to include as an important piece",
+    "Example Sentence": "The sound made by 'r' is one of the most difficult features of spoken English."
+  },
+  {
+    "Word": "finite",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "유한한, 한정된",
+    "English Definition": "having an end or limits",
+    "Example Sentence": "Natural resources like oil and coal are finite."
+  },
+  {
+    "Word": "fluctuate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "변동하다, 오르내리다",
+    "English Definition": "to change continually",
+    "Example Sentence": "Stock prices fluctuate every day based on market conditions."
+  },
+  {
+    "Word": "focus",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "easy",
+    "Korean Definition": "초점, 집중; 집중하다",
+    "English Definition": "the center of attention; to look at or think about",
+    "Example Sentence": "I could not focus on my homework in the library because someone was playing music."
+  },
+  {
+    "Word": "framework",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "뼈대, 틀, 체제",
+    "English Definition": "a structure for a building, system, or idea",
+    "Example Sentence": "Ellen's business plan formed the framework for her next successful plan."
+  },
+  {
+    "Word": "function",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "common",
+    "Korean Definition": "기능; 기능하다, 작동하다",
+    "English Definition": "what something does; to work",
+    "Example Sentence": "I dropped my phone into a swimming pool, but amazingly, it still functions."
+  },
+  {
+    "Word": "fundamental",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "근본적인, 핵심적인",
+    "English Definition": "basic, central; extremely important",
+    "Example Sentence": "The fundamental beliefs of most religions are peaceful."
+  },
+  {
+    "Word": "gap",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "격차, 틈, 공백",
+    "English Definition": "a space in between two objects; a difference",
+    "Example Sentence": "The gap between the rich and the poor has widened over the last decade.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "garbled",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "잘 알아들을 수 없는, 뒤섞인",
+    "English Definition": "communication that is distorted and unclear",
+    "Example Sentence": "The radio transmission was garbled, so we couldn't understand the pilot's message.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "generate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "발생시키다, 만들어 내다",
+    "English Definition": "to create, to produce (especially energy)",
+    "Example Sentence": "Movement generates heat.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "grant",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "승인하다, 수여하다; 인정하다",
+    "English Definition": "to agree to give (something asked for); to admit something is true",
+    "Example Sentence": "The government has recently granted us access to information that was secret before.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "grandiose",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "거창한, 웅장한",
+    "English Definition": "pompous; overly important",
+    "Example Sentence": "He had grandiose plans to build a castle, but he couldn't afford it.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hackneyed",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "진부한, 낡은",
+    "English Definition": "overused and unoriginal",
+    "Example Sentence": "The plot of the movie was hackneyed and predictable from the start.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "haphazard",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "무계획적인, 되는 대로의",
+    "English Definition": "lacking planning",
+    "Example Sentence": "The books were piled in a haphazard way, making it impossible to find anything.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "harsh",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "가혹한, 거친",
+    "English Definition": "not gentle; unpleasant",
+    "Example Sentence": "The harsh winter weather killed many of the plants in the garden.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hasty",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "서두르는, 성급한",
+    "English Definition": "in a hurry; acting too quickly",
+    "Example Sentence": "He made a hasty decision to quit his job and later regretted it.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hazardous",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "위험한",
+    "English Definition": "full of risk; dangerous",
+    "Example Sentence": "Working with toxic chemicals can be hazardous to your health.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hence",
+    "Part of Speech": "adverb",
+    "Difficulty": "common",
+    "Korean Definition": "그러므로, 향후",
+    "English Definition": "therefore, so, as a result",
+    "Example Sentence": "The evidence is false; hence, the conclusion is also false.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "hesitate",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "주저하다, 망설이다",
+    "English Definition": "to pause, often due to reluctance",
+    "Example Sentence": "She hesitated before answering the difficult question.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hierarchy",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "계급, 계층",
+    "English Definition": "a ranking system",
+    "Example Sentence": "There is a strict hierarchy in the military that must be followed.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hindrance",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "방해, 장애물",
+    "English Definition": "something that causes delay or resistance",
+    "Example Sentence": "Heavy traffic is a major hindrance to getting to work on time.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hollow",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "속이 빈, 공허한",
+    "English Definition": "empty inside",
+    "Example Sentence": "The old tree was hollow inside, providing a home for owls.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hostile",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "적대적인",
+    "English Definition": "extremely unfriendly",
+    "Example Sentence": "The audience was hostile towards the speaker, booing him as he walked on stage.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "hypothesis",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "가설",
+    "English Definition": "an idea which explains something but is unproven",
+    "Example Sentence": "The hypothesis that the Earth is growing was shown to be false.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "identical",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "동일한, 똑같은",
+    "English Definition": "exactly the same",
+    "Example Sentence": "The twins look identical, so it is hard to tell them apart.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "identify",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "확인하다, 식별하다",
+    "English Definition": "to name, to show or figure out what something is",
+    "Example Sentence": "Scientists have not been able to identify the language written on the rocks.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "illiterate",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "문맹의, 글을 모르는",
+    "English Definition": "unable to read",
+    "Example Sentence": "Programs were set up to help illiterate adults learn to read and write.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "illustrate",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "설명하다, 예시를 들다, 삽화를 넣다",
+    "English Definition": "to explain with an example",
+    "Example Sentence": "Peter illustrated his point by telling a short story.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "impact",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "hard",
+    "Korean Definition": "영향, 충격; 영향을 주다",
+    "English Definition": "an effect that changes a situation; to affect strongly",
+    "Example Sentence": "The end of the war had a large impact on economic growth.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "impair",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "손상시키다, 악화시키다",
+    "English Definition": "to worsen; to damage",
+    "Example Sentence": "Lack of sleep can impair your ability to drive safely.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "implement",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "시행하다, 이행하다",
+    "English Definition": "to carry out; to put into effect",
+    "Example Sentence": "The school implemented a new dress code policy starting this semester.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "imply",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "암시하다, 넌지시 비치다",
+    "English Definition": "to communicate without saying specifically; to hint at an idea",
+    "Example Sentence": "The president implied that he would not support the new law, but he didn't say it clearly.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "impose",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "부과하다, 강요하다",
+    "English Definition": "to force upon",
+    "Example Sentence": "The government imposed a new tax on imported goods.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "incentive",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "장려책, 동기",
+    "English Definition": "a reason to do something; motivation",
+    "Example Sentence": "Bonus money is a good incentive for employees to work harder.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "incessant",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "끊임없는",
+    "English Definition": "continuing without pause",
+    "Example Sentence": "The incessant noise from the construction site made it hard to concentrate.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "incidental",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "부수적인, 우연한",
+    "English Definition": "a minor part; occurring by chance",
+    "Example Sentence": "Any travel expenses are incidental to the main cost of the project.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "incite",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "선동하다, 자극하다",
+    "English Definition": "to urge on; to encourage (usually negative behavior)",
+    "Example Sentence": "The speech incited the crowd to protest in the streets.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "inclination",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "성향, 경향",
+    "English Definition": "a preference; a tendency",
+    "Example Sentence": "My natural inclination is to sleep late on weekends.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "incompetent",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "무능한",
+    "English Definition": "incapable; lacking ability",
+    "Example Sentence": "He was fired for being incompetent and unable to complete his tasks.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "inconsistent",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "일관성 없는, 모순된",
+    "English Definition": "changing randomly; not staying the same",
+    "Example Sentence": "His grades are inconsistent; sometimes he gets A's, and other times he fails.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "indicate",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "나타내다, 보여주다",
+    "English Definition": "to be a sign of, to show",
+    "Example Sentence": "The way you speak and act indicates your emotions.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "indisputable",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "반박의 여지가 없는, 명백한",
+    "English Definition": "not able to be challenged; undeniable",
+    "Example Sentence": "It is an indisputable fact that the earth revolves around the sun.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "individual",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "개별적인, 각각의",
+    "English Definition": "single or separated; only one of",
+    "Example Sentence": "Joan was surprised that the ten books she ordered came in individual boxes.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "inevitable",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "피할 수 없는, 필연적인",
+    "English Definition": "unable to be avoided",
+    "Example Sentence": "It was inevitable that they would eventually find out the truth.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "infer",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "추론하다",
+    "English Definition": "to guess based on evidence",
+    "Example Sentence": "I inferred from her silence that she was angry.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "influence",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "영향, 영향력",
+    "English Definition": "the ability to have an impact on something",
+    "Example Sentence": "Parents have a strong influence on their children's behavior.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "initial",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "처음의, 초기의",
+    "English Definition": "at the beginning",
+    "Example Sentence": "My initial plan was to study until midnight and wake up late.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "inquiry",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "조사, 문의",
+    "English Definition": "an investigation to determine the truth",
+    "Example Sentence": "The police launched an inquiry into the cause of the accident.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "instance",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "사례, 경우",
+    "English Definition": "an example, a case",
+    "Example Sentence": "Two animals in Australia are the only instances of mammals that lay eggs.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "institute",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "hard",
+    "Korean Definition": "도입하다, 시작하다; 연구소, 협회",
+    "English Definition": "to start (a rule or system); a group or organization",
+    "Example Sentence": "The National Cancer Institute was created to learn more about cancer.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "integral",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "필수적인",
+    "English Definition": "necessary to complete the whole",
+    "Example Sentence": "Trust is integral to a good relationship.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "integrate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "통합하다, 융합하다",
+    "English Definition": "to become a part of; to combine",
+    "Example Sentence": "It is difficult to smoothly integrate a foreign culture into the main culture of a country.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "interpret",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "해석하다, 통역하다",
+    "English Definition": "to figure out or explain the meaning of something",
+    "Example Sentence": "The students could not interpret the extremely old book because the pages were hard to read.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "intervene",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "개입하다, 중재하다",
+    "English Definition": "to come between people, objects, or an event and change what is happening",
+    "Example Sentence": "The teacher intervened to stop the fight between the students.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "intrepid",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "용감한, 대담한",
+    "English Definition": "fearless; adventurous",
+    "Example Sentence": "The intrepid explorer traveled to the South Pole alone.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "intricate",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "복잡한, 정교한",
+    "English Definition": "highly detailed",
+    "Example Sentence": "The pattern on the rug was very intricate and beautiful.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "invest",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "투자하다",
+    "English Definition": "to spend money, energy, or time hoping for good results",
+    "Example Sentence": "Jamie invested in an education company that he thought would succeed.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "investigate",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "조사하다, 연구하다",
+    "English Definition": "to try to find answers to questions about something, to research",
+    "Example Sentence": "Doctors are investigating a newly discovered plant that might help to fight cancer.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "involve",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "포함하다, 수반하다, 관련되다",
+    "English Definition": "to include, to have as a part",
+    "Example Sentence": "The study of architecture involves both art and science.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "irascible",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "화를 잘 내는",
+    "English Definition": "easy to anger",
+    "Example Sentence": "The irascible old man yelled at the kids for playing on his lawn.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "irony",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "아이러니, 반어법",
+    "English Definition": "the use of words to give a meaning opposite to their literal meaning; a paradoxical situation",
+    "Example Sentence": "The irony is that he stole a car to get to the police station faster.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "issue",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "문제, 쟁점, 주제",
+    "English Definition": "a topic or situation to talk about; a problem",
+    "Example Sentence": "In order to define what jazz music is, we need to look at a few different issues.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "jargon",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "전문 용어",
+    "English Definition": "words specific to a certain job or group",
+    "Example Sentence": "The contract was full of legal jargon that I couldn't understand.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "jointly",
+    "Part of Speech": "adverb",
+    "Difficulty": "medium",
+    "Korean Definition": "공동으로, 함께",
+    "English Definition": "together",
+    "Example Sentence": "The project was funded jointly by the government and private investors.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "justify",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "정당화하다, 해명하다",
+    "English Definition": "to give a good reason for an action or situation",
+    "Example Sentence": "Milos could not justify borrowing his brother's car without asking.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "knack",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "재주, 요령",
+    "English Definition": "a special talent or skill",
+    "Example Sentence": "He has a knack for fixing computers without looking at the manual.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "label",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "easy",
+    "Korean Definition": "라벨, 꼬리표; 라벨을 붙이다, 명명하다",
+    "English Definition": "a name or phrase given to a group; to identify",
+    "Example Sentence": "Children are often unkind and label others who look different as outsiders.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "labor",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "노동, 수고",
+    "English Definition": "work; effort",
+    "Example Sentence": "Juan was surprised at how much labor was needed to finish his project on time.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "lag",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "뒤쳐지다",
+    "English Definition": "to fall behind",
+    "Example Sentence": "The runner injured his leg and began to lag behind the others.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "layer",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "medium",
+    "Korean Definition": "층, 겹; 층을 이루다",
+    "English Definition": "something that covers something else; to put something on top",
+    "Example Sentence": "Layers of paint on the steel bridge will protect it from rust.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "lecture",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "common",
+    "Korean Definition": "강의; 강의하다",
+    "English Definition": "a long speech about one topic (especially in a classroom)",
+    "Example Sentence": "Professor Jackson's lectures are too long; I always fall asleep.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "legitimate",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "합법적인, 정당한",
+    "English Definition": "lawful; reasonable",
+    "Example Sentence": "He has a legitimate claim to the property since he bought it legally.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "lenient",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "관대한",
+    "English Definition": "merciful; less harsh",
+    "Example Sentence": "The teacher was lenient with the student who turned in the homework one day late.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "link",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "medium",
+    "Korean Definition": "연결하다; 연결, 관계",
+    "English Definition": "to create a connection; a connection between two things",
+    "Example Sentence": "The news story linked the president's success with the improved economy.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "maintain",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "유지하다; (주장을) 굽히지 않다",
+    "English Definition": "to keep in good condition; to continue to say although people disagree",
+    "Example Sentence": "Christopher Columbus maintained that he had sailed to Asia, not America.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "major",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "주요한, 중대한",
+    "English Definition": "very important, or large in size",
+    "Example Sentence": "The exam score is a major part of the final class grade.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "manipulate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "조종하다, 조작하다",
+    "English Definition": "to influence, especially in an unfair way",
+    "Example Sentence": "He was accused of trying to manipulate the stock price.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "maximize",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "극대화하다",
+    "English Definition": "to make as big as possible; to use or do as completely as possible",
+    "Example Sentence": "In order to maximize the number of people that can fit on the plane, the airline took out the restrooms.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "measure",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "측정하다, 재다",
+    "English Definition": "to find the size and dimensions of something",
+    "Example Sentence": "He measured the room to see if the sofa would fit.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "mediocre",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "보통의, 평범한",
+    "English Definition": "ordinary, average; not very good",
+    "Example Sentence": "The food at the restaurant was mediocre, not great but not terrible.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "mend",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "고치다, 수선하다",
+    "English Definition": "to fix",
+    "Example Sentence": "She mended the hole in her shirt with a needle and thread.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "mental",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "정신의, 마음의",
+    "English Definition": "of the mind",
+    "Example Sentence": "Many mental problems are still not well understood.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "method",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "방법, 방식",
+    "English Definition": "how to do something, a process",
+    "Example Sentence": "The Spanish method of making chocolate created a completely new drink.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "migrate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "이동하다, 이주하다",
+    "English Definition": "to move from one place to another",
+    "Example Sentence": "Birds migrate south for the winter to find warmer weather.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "modify",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "수정하다, 변경하다",
+    "English Definition": "to make small changes or add to in order to make better",
+    "Example Sentence": "The first bicycles were slow and difficult to use, but they were modified over time.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "monitor",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "hard",
+    "Korean Definition": "감시하다; 화면, 모니터",
+    "English Definition": "to watch the quality or progress of something over time",
+    "Example Sentence": "We have been carefully monitoring the amount of salt in our oceans for the last 50 years.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "negate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "무효화하다, 부정하다",
+    "English Definition": "to make not true or not effective",
+    "Example Sentence": "Studying late into the night might help you learn more, but sleeping less negates the positive effects.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "network",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "네트워크, 망",
+    "English Definition": "a system of connected pieces",
+    "Example Sentence": "The typhoon destroyed the network of roads, which has made it hard to bring supplies.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "nevertheless",
+    "Part of Speech": "adverb",
+    "Difficulty": "common",
+    "Korean Definition": "그럼에도 불구하고",
+    "English Definition": "however, regardless",
+    "Example Sentence": "The decision was dangerous. Nevertheless, Hitler attacked Russia.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "notion",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "개념, 관념, 생각",
+    "English Definition": "a belief; an idea",
+    "Example Sentence": "I think the professor's notion of fun was different from the students' notion of fun.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "objective",
+    "Part of Speech": "noun, adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "목표; 객관적인",
+    "English Definition": "a goal; based in fact, not an opinion",
+    "Example Sentence": "The objective of the TOEFL is to measure your total English ability.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "obtain",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "얻다, 획득하다",
+    "English Definition": "to get or secure something",
+    "Example Sentence": "After lots of looking, Jorge obtained a job and apartment in New York City.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "obvious",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "분명한, 명백한",
+    "English Definition": "easily understood or seen",
+    "Example Sentence": "The results of the election were so clear that the loser admitted defeat immediately.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "occupy",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "차지하다, 점유하다",
+    "English Definition": "to be in or on a space, to fill a space",
+    "Example Sentence": "The dentist's office occupied the entire fourth floor of the building.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "occur",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "일어나다, 발생하다",
+    "English Definition": "to happen",
+    "Example Sentence": "The sinking of the Titanic occurred on April 14, 1912.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "oppress",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "탄압하다, 억압하다",
+    "English Definition": "to unfairly burden; to keep down by force",
+    "Example Sentence": "The dictator oppressed the people for years, denying them basic rights.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "orient",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "지향하게 하다, 적응하다",
+    "English Definition": "to move into a position; to explore and become comfortable with",
+    "Example Sentence": "It took a few weeks to orient myself in the new job, but I feel comfortable now.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "overall",
+    "Part of Speech": "adverb, adjective",
+    "Difficulty": "common",
+    "Korean Definition": "전반적인, 대체로",
+    "English Definition": "in general, for the most part; looking at all pieces",
+    "Example Sentence": "Overall, Americans eat a lot of beef compared to people in other countries.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "participate",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "참여하다, 참가하다",
+    "English Definition": "to join or take part in",
+    "Example Sentence": "The teacher was surprised when every student participated in the math game.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "perceive",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "인지하다, 감지하다",
+    "English Definition": "to be aware of, to sense or feel",
+    "Example Sentence": "If hunters are skilled, the animals will not perceive their presence.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "period",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "기간, 시기",
+    "English Definition": "a range or amount of time",
+    "Example Sentence": "Computer technology changed a lot in the period between the 1980s and the year 2000.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "persist",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "고집하다, 지속하다",
+    "English Definition": "to continue, especially when facing opposition",
+    "Example Sentence": "If your symptoms persist, you should see a doctor immediately.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "perspective",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "관점, 시각",
+    "English Definition": "a point of view or opinion; how you see something",
+    "Example Sentence": "Many Hollywood movies, when watched from a woman's perspective, have clearly sexist characters.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "phase",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "단계, 시기",
+    "English Definition": "a period of time in a longer process of change",
+    "Example Sentence": "There are at least three different phases in a frog's development from egg to adult.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "philosophy",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "철학, 생각",
+    "English Definition": "the study of knowledge; a basic idea that affects actions",
+    "Example Sentence": "My philosophy is that if you can do something today, you shouldn't wait until tomorrow.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "physical",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "신체의, 물리적인",
+    "English Definition": "of the body (not mental); concrete",
+    "Example Sentence": "Cleaning up the campus garden was tiring, physical work.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "policy",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "정책, 방침",
+    "English Definition": "a rule made by an organization, government, or company",
+    "Example Sentence": "School policy does not allow alcohol on campus.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "potential",
+    "Part of Speech": "noun, adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "잠재력; 잠재적인",
+    "English Definition": "possible ability that might be used in the future",
+    "Example Sentence": "Wind and solar energy have the potential to replace oil.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "precise",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "정확한, 정밀한",
+    "English Definition": "exact; carefully defined",
+    "Example Sentence": "Because the pirates weren't certain of the precise location of the gold, they dug holes all over.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "predict",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "예측하다, 예언하다",
+    "English Definition": "to say something will happen in the future",
+    "Example Sentence": "Charlie Chaplin predicted that movies would never become popular. He was wrong.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "prevalent",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "널리 퍼진, 만연한",
+    "English Definition": "widespread; common",
+    "Example Sentence": "Flu is prevalent in the winter, so it's important to wash your hands often.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "previous",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "이전의, 앞선",
+    "English Definition": "happening before the one happening now",
+    "Example Sentence": "Soojin thought her science class was really hard after studying only literature in the previous year.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "primary",
+    "Part of Speech": "adjective, noun",
+    "Difficulty": "easy",
+    "Korean Definition": "주된, 가장 중요한; 초기의",
+    "English Definition": "first in importance; first in time",
+    "Example Sentence": "The primary cause of unhappiness is not about money--it is bad health.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "principle",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "원칙, 원리",
+    "English Definition": "a rule or idea that makes the base for a system",
+    "Example Sentence": "The principles at the heart of the new religion are the same as many central beliefs of Christianity.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "prior",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "이전의, 사전의",
+    "English Definition": "happening or being before",
+    "Example Sentence": "The new CEO of Yahoo called the prior CEO of the company to get a better understanding.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "proceed",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "진행하다, 나아가다",
+    "English Definition": "to begin or continue with some action",
+    "Example Sentence": "We will not proceed with the construction until someone tells us it is safe.",
+    "Source_Reference": "words1.pdf, words2.pdf"
+  },
+  {
+    "Word": "project",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "common",
+    "Korean Definition": "프로젝트; 예상하다, 투영하다",
+    "English Definition": "a plan or task; to predict; to send out",
+    "Example Sentence": "Based on this year's success, Apple is projecting similar growth next year.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "promote",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "홍보하다, 촉진하다, 승진시키다",
+    "English Definition": "to further the progress of something; to encourage",
+    "Example Sentence": "The organization works to promote healthy eating habits among children.",
+    "Source_Reference": "words1.pdf"
+  },
+  {
+    "Word": "proportion",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "비율, 부분, 균형",
+    "English Definition": "the size or amount of something compared to the whole",
+    "Example Sentence": "Cartoons of people often have exaggerated proportions, such as very large eyes.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "pursue",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "추구하다, 뒤쫓다",
+    "English Definition": "to try to achieve (a dream or goal); to follow",
+    "Example Sentence": "Man pursued the dream of flight for hundreds of years before the modern airplane was invented.",
+    "Source_Reference": "words2.pdf"
+  },
+  {
+    "Word": "quarrel",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "easy",
+    "Korean Definition": "말다툼; 언쟁하다",
+    "English Definition": "a disagreement or fight; to have an argument",
+    "Example Sentence": "The neighbors had a quarrel over the loud music playing late at night."
+  },
+  {
+    "Word": "range",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "medium",
+    "Korean Definition": "범위; (범위가) ~에 이르다",
+    "English Definition": "the distance between two things; to be between a set minimum and maximum",
+    "Example Sentence": "In the company, the age of people ranges from 25 to 75."
+  },
+  {
+    "Word": "rank",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "지위, 계급",
+    "English Definition": "an official position or station",
+    "Example Sentence": "He rose to the rank of captain in just three years."
+  },
+  {
+    "Word": "react",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "반응하다",
+    "English Definition": "to respond, act in answer to",
+    "Example Sentence": "Mothers react quickly to their babies' cries, even in the middle of the night."
+  },
+  {
+    "Word": "rebuke",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "꾸짖다, 비난하다",
+    "English Definition": "to sternly disapprove or reprimand",
+    "Example Sentence": "The mother rebuked her child for running into the street."
+  },
+  {
+    "Word": "recapitulate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "요약하다",
+    "English Definition": "to give a brief summary",
+    "Example Sentence": "At the end of the lecture, the professor recapitulated the main points."
+  },
+  {
+    "Word": "recede",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "물러나다, 약해지다",
+    "English Definition": "to retreat; to move back",
+    "Example Sentence": "The floodwaters began to recede after the rain stopped."
+  },
+  {
+    "Word": "recommend",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "추천하다",
+    "English Definition": "to present someone with confidence and approval",
+    "Example Sentence": "I recommend the pasta; it is delicious."
+  },
+  {
+    "Word": "reform",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "개혁하다, 개선하다",
+    "English Definition": "to make changes that improve something",
+    "Example Sentence": "The government plans to reform the healthcare system."
+  },
+  {
+    "Word": "region",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "지역, 지방",
+    "English Definition": "an area of land",
+    "Example Sentence": "Although most Japanese students come from Osaka, Akiko comes from the northern region."
+  },
+  {
+    "Word": "register",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "등록하다; (기계가) 기록하다",
+    "English Definition": "to put your name in a list; to identify and show on a tool for measuring",
+    "Example Sentence": "The bomb was so strong that far away weather balloons registered the heat."
+  },
+  {
+    "Word": "regulate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "규제하다, 조절하다",
+    "English Definition": "to control a process so that it functions correctly",
+    "Example Sentence": "Parents regulate the amount of time kids spend playing games on their phones."
+  },
+  {
+    "Word": "reinforce",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "강화하다, 보강하다",
+    "English Definition": "to strengthen with added support",
+    "Example Sentence": "They used steel beams to reinforce the building's structure."
+  },
+  {
+    "Word": "reject",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "거절하다, 거부하다",
+    "English Definition": "to say no to something that is offered",
+    "Example Sentence": "After applying to ten schools, Lucas was rejected by nine of them."
+  },
+  {
+    "Word": "release",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "풀어주다, 공개하다, 출시하다",
+    "English Definition": "to free; to allow to be known",
+    "Example Sentence": "The company released a new version of the software yesterday."
+  },
+  {
+    "Word": "relevant",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "관련 있는, 적절한",
+    "English Definition": "closely connected to the topic and therefore important",
+    "Example Sentence": "I think Professor McGarry can give you some relevant books to help you write that essay."
+  },
+  {
+    "Word": "rely",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "의지하다, 믿다",
+    "English Definition": "to depend on",
+    "Example Sentence": "In many countries, children rely on their parents for financial support until their 20s."
+  },
+  {
+    "Word": "remove",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "제거하다, 치우다",
+    "English Definition": "to take away or take out",
+    "Example Sentence": "The grocery store removed all of the milk after the government said it was unsafe."
+  },
+  {
+    "Word": "reproach",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "비난하다, 책망하다",
+    "English Definition": "to express disapproval or disappointment",
+    "Example Sentence": "She reproached him for forgetting their anniversary."
+  },
+  {
+    "Word": "require",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "필요로 하다, 요구하다",
+    "English Definition": "to need for a specific purpose",
+    "Example Sentence": "All life, plants and animals included, requires water."
+  },
+  {
+    "Word": "research",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "easy",
+    "Korean Definition": "연구하다; 연구",
+    "English Definition": "to find information about something; information collected about something",
+    "Example Sentence": "Dr. Stanislaus was famous for his research on changes in health education."
+  },
+  {
+    "Word": "resent",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "분개하다, 억울하게 여기다",
+    "English Definition": "to feel bitterness or anger towards someone or something",
+    "Example Sentence": "She resented being treated like a child by her older siblings."
+  },
+  {
+    "Word": "reside",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "거주하다, 살다",
+    "English Definition": "to live in a place",
+    "Example Sentence": "I reside in California."
+  },
+  {
+    "Word": "resign",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "사임하다, 물러나다",
+    "English Definition": "to give up an office or position",
+    "Example Sentence": "The CEO resigned after the scandal was made public."
+  },
+  {
+    "Word": "resist",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "저항하다, 견디다",
+    "English Definition": "to withstand the effect of",
+    "Example Sentence": "It is hard to resist the temptation of chocolate cake."
+  },
+  {
+    "Word": "resolve",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "해결하다; 결심하다",
+    "English Definition": "to solve a problem; to come to a firm decision",
+    "Example Sentence": "Even after meeting for hours, the leaders could not resolve their argument."
+  },
+  {
+    "Word": "resource",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "자원",
+    "English Definition": "some saved material that can be used for a purpose (money, oil, etc.)",
+    "Example Sentence": "Many of the richest countries have surprisingly few natural resources."
+  },
+  {
+    "Word": "respond",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "대답하다, 반응하다",
+    "English Definition": "answer; react",
+    "Example Sentence": "If you scare a turtle, it will respond by hiding in its shell."
+  },
+  {
+    "Word": "restrict",
+    "Part of Speech": "verb",
+    "Difficulty": "common",
+    "Korean Definition": "제한하다",
+    "English Definition": "to limit, to make some actions impossible",
+    "Example Sentence": "Access to this parking area is restricted to university students."
+  },
+  {
+    "Word": "retain",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "유지하다, 보유하다",
+    "English Definition": "to keep, continue to have or contain",
+    "Example Sentence": "Originally from France, Jean retains a hint of her French accent even today."
+  },
+  {
+    "Word": "retract",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "철회하다, 취소하다; (몸통 등으로) 집어넣다",
+    "English Definition": "to withdraw something after it's found to be untrue; to draw back in",
+    "Example Sentence": "The newspaper retracted the story after discovering the source was lying."
+  },
+  {
+    "Word": "retrieve",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "되찾다, 회수하다",
+    "English Definition": "to bring back",
+    "Example Sentence": "The dog ran to retrieve the ball."
+  },
+  {
+    "Word": "rhetorical",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "수사적인, 미사여구의",
+    "English Definition": "used just for style or impact (often not needing an answer)",
+    "Example Sentence": "He asked a rhetorical question to make the audience think, not to get an answer."
+  },
+  {
+    "Word": "rigid",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "엄격한, 융통성 없는; 단단한",
+    "English Definition": "stiff, unyielding",
+    "Example Sentence": "The school has rigid rules about student conduct."
+  },
+  {
+    "Word": "role",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "역할, 임무",
+    "English Definition": "a job or function; a position",
+    "Example Sentence": "Student class president is an important role."
+  },
+  {
+    "Word": "rotate",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "회전하다, 교대하다",
+    "English Definition": "to turn",
+    "Example Sentence": "The earth rotates on its axis once every 24 hours."
+  },
+  {
+    "Word": "safeguard",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "medium",
+    "Korean Definition": "보호 수단; 보호하다",
+    "English Definition": "something that serves as protection; to protect",
+    "Example Sentence": "Wearing a helmet is a safeguard against head injuries."
+  },
+  {
+    "Word": "scheme",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "계획, 책략; 체계",
+    "English Definition": "a large plan; the system by which something is arranged",
+    "Example Sentence": "Microsoft's marketing scheme for their new tablet was less than successful."
+  },
+  {
+    "Word": "scrutinize",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "세밀히 조사하다",
+    "English Definition": "to very carefully examine",
+    "Example Sentence": "The detective scrutinized the crime scene for clues."
+  },
+  {
+    "Word": "section",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "부분, 구역",
+    "English Definition": "a part of the whole",
+    "Example Sentence": "Every ant's body has three sections: a head, a thorax, and an abdomen."
+  },
+  {
+    "Word": "secure",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "고정시키다; 확보하다",
+    "English Definition": "to attach something so that is won't come off",
+    "Example Sentence": "Please tightly secure the surfboards on top of the car."
+  },
+  {
+    "Word": "seek",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "찾다, 추구하다",
+    "English Definition": "to look for, to try to find",
+    "Example Sentence": "Across many cultures, heroes seek more than just gold or fame."
+  },
+  {
+    "Word": "select",
+    "Part of Speech": "verb, adjective",
+    "Difficulty": "common",
+    "Korean Definition": "선택하다; 엄선된",
+    "English Definition": "to choose; chosen as the best from a group",
+    "Example Sentence": "Harvard students are a select group of very intelligent students."
+  },
+  {
+    "Word": "sequence",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "순서, 연속",
+    "English Definition": "things that follow each other in a certain order",
+    "Example Sentence": "The numbers must be entered in the correct sequence to open the lock."
+  },
+  {
+    "Word": "severe",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "심각한, 가혹한",
+    "English Definition": "harsh or strict; grave",
+    "Example Sentence": "The storm caused severe damage to the coastal towns."
+  },
+  {
+    "Word": "shallow",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "얕은",
+    "English Definition": "not deep",
+    "Example Sentence": "The river is shallow here, so we can walk across it."
+  },
+  {
+    "Word": "shelter",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "보호하다, 피난처를 제공하다",
+    "English Definition": "to protect from something harmful",
+    "Example Sentence": "The cave sheltered the hikers from the rain."
+  },
+  {
+    "Word": "shift",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "medium",
+    "Korean Definition": "옮기다, 바꾸다; 변화",
+    "English Definition": "to move something a short distance; a small change",
+    "Example Sentence": "Please help me shift the table so it is easier for people to sit down."
+  },
+  {
+    "Word": "shrink",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "줄어들다, 수축하다",
+    "English Definition": "to become smaller",
+    "Example Sentence": "My sweater shrank after I washed it in hot water."
+  },
+  {
+    "Word": "significant",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "중요한, 상당한",
+    "English Definition": "important or big enough that you should notice",
+    "Example Sentence": "Most animals spend a significant amount of their time looking for food."
+  },
+  {
+    "Word": "site",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "현장, 위치, 장소",
+    "English Definition": "the location of something",
+    "Example Sentence": "The people voted for a site downtown as the location of the new stadium."
+  },
+  {
+    "Word": "solitary",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "혼자의, 고독한",
+    "English Definition": "alone; without others",
+    "Example Sentence": "Tigers are solitary animals that prefer to live alone."
+  },
+  {
+    "Word": "somber",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "침울한, 어두운",
+    "English Definition": "gloomy; depressing",
+    "Example Sentence": "The funeral was a somber occasion."
+  },
+  {
+    "Word": "soothe",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "달래다, 진정시키다",
+    "English Definition": "to calm or comfort",
+    "Example Sentence": "She sang a lullaby to soothe the crying baby."
+  },
+  {
+    "Word": "source",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "원천, 출처",
+    "English Definition": "where something comes from",
+    "Example Sentence": "Do not trust books that give information without listed sources."
+  },
+  {
+    "Word": "sparse",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "드문드문한, 희박한",
+    "English Definition": "thinly scattered",
+    "Example Sentence": "Vegetation is sparse in the desert due to lack of water."
+  },
+  {
+    "Word": "specify",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "구체적으로 명시하다",
+    "English Definition": "to say which one or clearly point to which one",
+    "Example Sentence": "The king did not specify which daughter the hero could marry."
+  },
+  {
+    "Word": "speculate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "추측하다",
+    "English Definition": "to form a theory without strong evidence",
+    "Example Sentence": "We can only speculate about why he left the company so suddenly."
+  },
+  {
+    "Word": "squalid",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "지저분한, 불결한",
+    "English Definition": "filthy and unpleasant",
+    "Example Sentence": "The refugees were living in squalid conditions."
+  },
+  {
+    "Word": "stable",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "안정된, 견고한",
+    "English Definition": "not likely to change, fall, or move",
+    "Example Sentence": "Make sure the ladder is stable before you climb up it."
+  },
+  {
+    "Word": "stagnant",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "침체된, 고여 있는",
+    "English Definition": "sluggish; showing little movement",
+    "Example Sentence": "The economy has been stagnant for the past few years."
+  },
+  {
+    "Word": "status",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "지위, 상태",
+    "English Definition": "the rank or social class; the current situation",
+    "Example Sentence": "The status of women has slowly improved over the past 100 years."
+  },
+  {
+    "Word": "strategy",
+    "Part of Speech": "noun",
+    "Difficulty": "easy",
+    "Korean Definition": "전략",
+    "English Definition": "a plan to reach a desired outcome",
+    "Example Sentence": "The debate team discussed their strategy for defeating the other team."
+  },
+  {
+    "Word": "stress",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "common",
+    "Korean Definition": "강조하다; 스트레스, 압박",
+    "English Definition": "to place extra importance on; pressure, strain",
+    "Example Sentence": "If you stress the wrong words when speaking English, you may not be understood."
+  },
+  {
+    "Word": "subsequent",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "그 다음의, 차후의",
+    "English Definition": "coming after something in time",
+    "Example Sentence": "The winter and the subsequent spring were surprisingly dry."
+  },
+  {
+    "Word": "substitute",
+    "Part of Speech": "verb, noun",
+    "Difficulty": "common",
+    "Korean Definition": "대체하다; 대용품",
+    "English Definition": "to take out and put something else in; something that goes in the place of",
+    "Example Sentence": "Many smokers who try to quit use chewing gum as a substitute."
+  },
+  {
+    "Word": "subtle",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "미묘한, 감지하기 힘든",
+    "English Definition": "difficult to notice right away",
+    "Example Sentence": "There was a subtle change in his attitude after the meeting."
+  },
+  {
+    "Word": "sufficient",
+    "Part of Speech": "adjective",
+    "Difficulty": "common",
+    "Korean Definition": "충분한",
+    "English Definition": "enough to serve a particular purpose",
+    "Example Sentence": "Because of weather changes, last year farms couldn't grow sufficient rice."
+  },
+  {
+    "Word": "summarize",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "요약하다",
+    "English Definition": "to briefly give the main points",
+    "Example Sentence": "Can you summarize the plot of the movie in one sentence?"
+  },
+  {
+    "Word": "supervise",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "감독하다, 관리하다",
+    "English Definition": "to oversee work or a process",
+    "Example Sentence": "The manager supervises a team of twenty employees."
+  },
+  {
+    "Word": "supplant",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "대신하다, 대체하다",
+    "English Definition": "to take the place of something else",
+    "Example Sentence": "E-books are slowly supplanting physical books."
+  },
+  {
+    "Word": "suspend",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "매달다; 중단하다, 정학시키다",
+    "English Definition": "to hang something; to temporarily stop",
+    "Example Sentence": "Construction on the bridge was suspended due to the storm."
+  },
+  {
+    "Word": "suspicious",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "의심스러운, 수상쩍은",
+    "English Definition": "having the belief that someone is doing something dishonest",
+    "Example Sentence": "His behavior was suspicious, so the police decided to investigate."
+  },
+  {
+    "Word": "sustain",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "유지하다, 지탱하다",
+    "English Definition": "to keep going; to help something continue",
+    "Example Sentence": "No animals or plants can sustain life without water."
+  },
+  {
+    "Word": "symbolic",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "상징적인",
+    "English Definition": "serving as a symbol",
+    "Example Sentence": "The dove is symbolic of peace."
+  },
+  {
+    "Word": "technical",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "기술적인, 전문적인",
+    "English Definition": "relating to a specific subject or craft",
+    "Example Sentence": "The manual is full of technical terms that I don't understand."
+  },
+  {
+    "Word": "terminal",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "말기의, 끝의",
+    "English Definition": "situated at the end",
+    "Example Sentence": "He was diagnosed with a terminal illness."
+  },
+  {
+    "Word": "theory",
+    "Part of Speech": "noun",
+    "Difficulty": "common",
+    "Korean Definition": "이론",
+    "English Definition": "an idea or belief about how/why something works",
+    "Example Sentence": "There are many theories about why we dream."
+  },
+  {
+    "Word": "tolerate",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "참다, 견디다",
+    "English Definition": "to put up with",
+    "Example Sentence": "I cannot tolerate this noise any longer."
+  },
+  {
+    "Word": "tradition",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "전통",
+    "English Definition": "a set of beliefs passed from family to family",
+    "Example Sentence": "Chris's favorite tradition is eating ham on Christmas."
+  },
+  {
+    "Word": "transfer",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "이동하다, 전송하다",
+    "English Definition": "to move from one place to another",
+    "Example Sentence": "Sally transferred all of her money from the bank when she heard they were closing."
+  },
+  {
+    "Word": "transition",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "전환하다, 이행하다",
+    "English Definition": "to change from one state or condition to another",
+    "Example Sentence": "The company is transitioning to a new computer system."
+  },
+  {
+    "Word": "transparent",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "투명한, 명백한",
+    "English Definition": "easy to see through; easy to detect",
+    "Example Sentence": "The glass is transparent, so you can see what is inside."
+  },
+  {
+    "Word": "trend",
+    "Part of Speech": "noun, verb",
+    "Difficulty": "common",
+    "Korean Definition": "추세, 경향",
+    "English Definition": "the direction or way in which something is changing",
+    "Example Sentence": "Today's computer culture is trending toward more touch-screen technology."
+  },
+  {
+    "Word": "tuition",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "수업료, 등록금",
+    "English Definition": "the fee for instruction at a school",
+    "Example Sentence": "College tuition has increased significantly in recent years."
+  },
+  {
+    "Word": "underlying",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "근본적인, 밑에 있는",
+    "English Definition": "forming the basis for something",
+    "Example Sentence": "There is no single way to end drug addiction since there are many underlying causes."
+  },
+  {
+    "Word": "unobtrusive",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "눈에 띄지 않는",
+    "English Definition": "not attracting attention",
+    "Example Sentence": "She tried to be unobtrusive as she slipped into the back of the room."
+  },
+  {
+    "Word": "unscathed",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "다치지 않은, 무사한",
+    "English Definition": "unharmed",
+    "Example Sentence": "Miraculously, he walked away from the car accident unscathed."
+  },
+  {
+    "Word": "upbeat",
+    "Part of Speech": "adjective",
+    "Difficulty": "easy",
+    "Korean Definition": "긍정적인, 낙관적인",
+    "English Definition": "happy, optimistic",
+    "Example Sentence": "Despite the bad news, she remained upbeat."
+  },
+  {
+    "Word": "unjust",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "부당한, 불공평한",
+    "English Definition": "unfair",
+    "Example Sentence": "The punishment was unjust because he didn't do anything wrong."
+  },
+  {
+    "Word": "vacillate",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "흔들리다, 주저하다",
+    "English Definition": "to waver or be indecisive",
+    "Example Sentence": "He vacillated between ordering pizza and making a sandwich."
+  },
+  {
+    "Word": "valid",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "타당한, 유효한",
+    "English Definition": "from a reasonable or correct basis; just",
+    "Example Sentence": "Many people have said Pollock's work didn't require much skill, and that idea is somewhat valid."
+  },
+  {
+    "Word": "vanish",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "사라지다",
+    "English Definition": "to disappear quickly",
+    "Example Sentence": "The magician made the rabbit vanish from the hat."
+  },
+  {
+    "Word": "vary",
+    "Part of Speech": "verb",
+    "Difficulty": "medium",
+    "Korean Definition": "다르다, 다양하다",
+    "English Definition": "to be a different size, amount, or character",
+    "Example Sentence": "The restaurants in this area vary greatly in quantity and price."
+  },
+  {
+    "Word": "verdict",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "평결, 판정",
+    "English Definition": "a judgement or decision",
+    "Example Sentence": "The jury delivered a verdict of not guilty."
+  },
+  {
+    "Word": "vestige",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "자취, 흔적",
+    "English Definition": "a small trace of something that is disappearing",
+    "Example Sentence": "These old ruins are the last vestige of a once-great civilization."
+  },
+  {
+    "Word": "vial",
+    "Part of Speech": "noun",
+    "Difficulty": "medium",
+    "Korean Definition": "유리병, 물약병",
+    "English Definition": "a small container used to hold liquids",
+    "Example Sentence": "The scientist carefully opened the vial containing the chemical."
+  },
+  {
+    "Word": "vilify",
+    "Part of Speech": "verb",
+    "Difficulty": "hard",
+    "Korean Definition": "비방하다, 헐뜯다",
+    "English Definition": "to speak poorly of; to slander",
+    "Example Sentence": "The politician was vilified by the press for his mistake."
+  },
+  {
+    "Word": "voluminous",
+    "Part of Speech": "adjective",
+    "Difficulty": "hard",
+    "Korean Definition": "부피가 큰, 방대한",
+    "English Definition": "taking up a lot of space",
+    "Example Sentence": "She wore a voluminous dress that filled the entire hallway."
+  },
+  {
+    "Word": "welfare",
+    "Part of Speech": "noun",
+    "Difficulty": "hard",
+    "Korean Definition": "복지, 안녕",
+    "English Definition": "how healthy and happy a person or group is",
+    "Example Sentence": "A perfect government would care more about the welfare of its people than anything else."
+  },
+  {
+    "Word": "whereas",
+    "Part of Speech": "conjunction",
+    "Difficulty": "common",
+    "Korean Definition": "반면에",
+    "English Definition": "although (used to contrast two different things)",
+    "Example Sentence": "Lemons are very sour whereas most fruits are sweet."
+  },
+  {
+    "Word": "wholly",
+    "Part of Speech": "adverb",
+    "Difficulty": "medium",
+    "Korean Definition": "완전히, 전적으로",
+    "English Definition": "completely",
+    "Example Sentence": "I am wholly committed to this project."
+  },
+  {
+    "Word": "widespread",
+    "Part of Speech": "adjective",
+    "Difficulty": "medium",
+    "Korean Definition": "널리 퍼진, 광범위한",
+    "English Definition": "occurring over a large region",
+    "Example Sentence": "There was widespread panic when the earthquake hit."
+  },
+  {
+    "Word": "wilt",
+    "Part of Speech": "verb",
+    "Difficulty": "easy",
+    "Korean Definition": "시들다, 약해지다",
+    "English Definition": "to droop and become limp",
+    "Example Sentence": "The flowers began to wilt because I forgot to water them."
+  }
+]
